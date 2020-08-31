@@ -3,7 +3,7 @@ rule xlsm_without_metadata_and_with_date {
 		description = "Identifies .xlsm files created with EPPlus”
 		author = "NVISO (Didier Stevens)"
 		date = "2020-07-12"
-		reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers”
+		reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
 		tlp = "White"
                 strings:
                                 $opc = "[Content_Types].xml"
