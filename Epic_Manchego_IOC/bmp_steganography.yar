@@ -4,11 +4,10 @@ rule DOTNET_BMP_Embedded_Settings : EpicManchego
 {
     meta:
         description = "Identifies settings embedded inside a BMP resource"
-        author = "Maxime Thiebaut (@0xThiebaut)"
-        unit = "NVISO CSIRT"
+        author = "NVISO (Maxime @0xThiebaut)"
         date = "2020-08-30"
+        reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
         tlp = "WHITE"
-	reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
         
         hash1 = "9D3DF770B6DCD5BEB650A097A597BB70C49DDE306517BBC731812BF18A806719"
         hash2 = "BCFC34CBA923F98AAEF2289267664A3637C46B20D409A86E2EEEFEB71F3CC4BB"
@@ -51,11 +50,10 @@ rule DOTNET_BMP_Embedded_PE : EpicManchego
 {
     meta:
         description = "Identifies a PE embedded inside a BMP resource"
-        author = "Maxime Thiebaut (@0xThiebaut)"
-        unit = "NVISO CSIRT"
+        author = "NVISO (Maxime @0xThiebaut)"
         date = "2020-08-30"
+        reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
         tlp = "WHITE"
-	reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
         
         hash1 = "9D3DF770B6DCD5BEB650A097A597BB70C49DDE306517BBC731812BF18A806719"
         hash2 = "BCFC34CBA923F98AAEF2289267664A3637C46B20D409A86E2EEEFEB71F3CC4BB"
