@@ -62,6 +62,7 @@ rule DOTNET_BMP_Embedded_PE : EpicManchego
         hash5 = "82695734165A830A7EC7F6030E27A9F3996DF3A1C5A66FF3FEFD41D2EF360B6F"
 
     strings:
+        // Fragmented strings split across the BMP bitmap sections
         $bmp = {42 4D}
         $pe1 = "PE"
         $pe2 = "MZ"
