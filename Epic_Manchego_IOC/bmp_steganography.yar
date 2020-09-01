@@ -6,7 +6,7 @@ rule DOTNET_BMP_Embedded_Settings : EpicManchego
         description = "Identifies settings embedded inside a BMP resource"
         author = "NVISO (Maxime @0xThiebaut)"
         date = "2020-08-30"
-        reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
+        reference = "https://blog.nviso.eu/2020/09/01/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers/"
         tlp = "WHITE"
         
         hash1 = "9D3DF770B6DCD5BEB650A097A597BB70C49DDE306517BBC731812BF18A806719"
@@ -52,7 +52,7 @@ rule DOTNET_BMP_Embedded_PE : EpicManchego
         description = "Identifies a PE embedded inside a BMP resource"
         author = "NVISO (Maxime @0xThiebaut)"
         date = "2020-08-30"
-        reference = "http://blog.nviso.eu/2020/08/31/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers"
+        reference = "https://blog.nviso.eu/2020/09/01/epic-manchego-atypical-maldoc-delivery-brings-flurry-of-infostealers/"
         tlp = "WHITE"
         
         hash1 = "9D3DF770B6DCD5BEB650A097A597BB70C49DDE306517BBC731812BF18A806719"
