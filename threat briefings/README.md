@@ -1,2 +1,2 @@
 # Threat Briefings
-This folder hold's NVISO monthly threat briefings, sorted by month.
+This folder holds NVISO's monthly threat briefings, sorted by month.
