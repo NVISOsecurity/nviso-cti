@@ -2,7 +2,7 @@
 
 **2021-07-20**
 ## SUMMARY
-Recently researchers have discovered that the Windows SAM database, storage of local passwords and users, is accessible by non-admin users. This vulnerability, which has not been acknowledged by Microsoft as of the time of this writing, is being dubbed hivepermission. This advisory will be updated on our Github page as more information becomes available. 
+Recently researchers have discovered that the Windows SAM database, storage of local passwords and users, is accessible by non-admin users. This vulnerability, which has not been acknowledged by Microsoft as of the time of this writing, is being dubbed &#35;hivepermission. This advisory will be updated on our Github page as more information becomes available. 
 ## WHY THIS MATTERS
 This vulnerability allows the SAM database to be read by non-admin users. This would allow for trivial local privilege escalation.  
 
