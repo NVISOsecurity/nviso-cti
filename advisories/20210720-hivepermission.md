@@ -11,7 +11,7 @@ This vulnerability allows the SAM database to be read by non-admin users. This w
 * Win10 1803 and below are not vulnerable. 
 
 ## AVAILABLE WORKAROUNDS
-The volume shadow copy service could be disabled but this would also limit the ability to recover lost files, do system restores, etc. This is not recommended since it would limit the ability to restore files and recover systems using system restore. 
+The volume shadow copy service could be disabled. The permission issue is introduced when the service is enabled. This is not recommended since it would limit the ability to restore files and recover systems using system restore.  
 
 ## AVAILABLE PATCHES
 Microsoft has not commented on this vulnerability as of the time of this writing. 
@@ -19,7 +19,7 @@ Microsoft has not commented on this vulnerability as of the time of this writing
 ## RECOMMENDED ACTIONS
 * Monitor for any access to this file path: %SystemRoot%/system32/config/SAM. 
 * EDR tools should pick up on any SAM database dumping activity. 
-* Monitoring of LOLBINS is key to this and is good practice to do regardless. 
+* Monitoring of LOLBINS is key to this and is good practice to do regardless. The reason to monitor of “living of the land binaries” is because no special tools are needed to exploit this vulnerability.
 * Also see the Detection section of the MITRE ATT&CK page for T1003: OS Credential Dumping, Technique T1003 - Enterprise | MITRE ATT&CK® (https://attack.mitre.org/techniques/T1003/).
 
 ## CONTACT AND FEEDBACK
