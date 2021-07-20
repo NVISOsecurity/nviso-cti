@@ -2,6 +2,7 @@
 **Update #1 2021-07-20**
 * SANS has published a diary entry about this issue here: https://isc.sans.edu/diary/27652
 * PoC Code has been published: https://github.com/GossiTheDog/HiveNightmare
+* Other files also have incorrect ACLs such as %SystemRoot%/system32/config/SECURITY and %SystemRoot%/system32/config/SYSTEM
 
 **2021-07-20**
 ## SUMMARY
