@@ -7,7 +7,7 @@ Recently researchers have discovered that the Windows SAM database, storage of l
 This vulnerability allows the SAM database to be read by non-admin users. This would allow for trivial local privilege escalation.  
 
 ## AFFECTED PRODUCTS
-* Win10 1809 and above are vulnerable, whether fresh build or upgrade. 
+* Win10 1809 and above are vulnerable.
 * Win10 1803 and below are not vulnerable. 
 
 ## AVAILABLE WORKAROUNDS
