@@ -11,7 +11,7 @@ This vulnerability allows the SAM database to be read by non-admin users. This w
 * Win10 1803 and below are not vulnerable. 
 
 ## AVAILABLE WORKAROUNDS
-The volume shadow copy service could be disabled but this would also limit the ability to recover lost files, do system restores, etc. This is not recommended. 
+The volume shadow copy service could be disabled but this would also limit the ability to recover lost files, do system restores, etc. This is not recommended since it would limit the ability to restore files and recover systems using system restore. 
 
 ## AVAILABLE PATCHES
 Microsoft has not commented on this vulnerability as of the time of this writing. 
