@@ -19,7 +19,7 @@ Microsoft has not commented on this vulnerability as of the time of this writing
 ## RECOMMENDED ACTIONS
 * Monitor for any access to this file path: %SystemRoot%/system32/config/SAM. 
 * EDR tools should pick up on any SAM database dumping activity. 
-* Monitoring of lol bins is key to this and is good practice to do regardless. 
+* Monitoring of LOLBINS is key to this and is good practice to do regardless. 
 * Also see the Detection section of the MITRE ATT&CK page for T1003: OS Credential Dumping, Technique T1003 - Enterprise | MITRE ATT&CK® (https://attack.mitre.org/techniques/T1003/).
 
 ## CONTACT AND FEEDBACK
