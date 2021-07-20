@@ -1,4 +1,6 @@
 ## NVISO CSIRT ADVISORY
+**Update #1 2021-07-20**
+SANS has published a diary entry about this issue here: https://isc.sans.edu/diary/27652
 
 **2021-07-20**
 ## SUMMARY
