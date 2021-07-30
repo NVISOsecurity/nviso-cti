@@ -4,4 +4,5 @@
 
 | Name | Type | Source |
 |------|----------|----------|
-| zloader_iocs.txt | IOC List |MISP|
+| zloader_iocs.csv | IOC List in CSV format |MISP|
+| REvil_iocs.csv | IOC List in CSV format |MISP|
