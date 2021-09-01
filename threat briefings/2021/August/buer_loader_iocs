@@ -1,0 +1,6 @@
+uuid,event_id,category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+7b946371-3fbe-48cf-8c26-428580a77608,4342,"Payload delivery","sha256","6f9d943f88f715ff8a122d7b88af986c1a9f38f4484e48cde768cf22a5935efe","Detailed Invoice.xll",1,1628515366,"","Buer Loader","","",""
+0939b9d2-1936-476e-b0ba-c95319de1218,4342,"Payload delivery","sha256","c28abaaad1b7b2c7a37f28e974e8214f07c88feffef986e0a60a44ab0fa575aa","srtherhaeth.eXe",1,1628515366,"","Buer Loader","","",""
+cad17178-438d-43c1-9572-98f57ffda328,4342,"Network activity","url","http://dmequest.com/dme/images/portfolio/products/1/csrsc.exe","Payload Download URI",1,1628515366,"","Buer Loader","","",""
+b092d216-bbd1-4889-9a9b-41d33dabf485,4342,"Payload delivery","sha256","bd734170160b363e70602626baab37a1eb93cfb2d254cf17b6ff1b5e7313b568","Additional Buer Loader (contacts 195[.]123.234.11)",1,1628515366,"","Buer Loader","","",""
+81e62acf-179c-4b1e-ae6e-125a377790ef,4342,"Payload delivery","sha256","9d1be741e3b09057cdaffb6e87d602afff496dee364767b161dfaab7e639866d","Additional Buer Loader (contacts 195[.]123.234.11)",1,1628515366,"","Buer Loader","","",""
