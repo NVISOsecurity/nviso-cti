@@ -380,25 +380,3 @@ b46210d4-cdb7-4eb4-b269-28c7ff5e84a1,4819,"Network activity","hostname","www.fia
 8dc57d44-ccd3-4938-868e-374012c95329,4819,"Network activity","hostname","www.mjjtobmrqyolqqbqqwmf.com","",1,1632315598,"","","","",""
 f94351df-4bb9-4d7d-b679-5dfa2becf24a,4819,"Network activity","hostname","www.lmpvhwfwyhesjsbroqmd.com","",1,1632315598,"","","","",""
 50284f92-1797-4c01-a531-4b4f166e6ea8,4819,"Network activity","hostname","www.hctvtvhndvfocyposuho.com","",1,1632315598,"","","","",""
-19342785-cf7b-4c43-9ae3-03bdb8ecf248,4819,"Payload installation","yara","rule ZLoader_fake_MSI_Dropper_Aug_2021_TIM
-{
-meta:
-       author = ""Antonio Pirozzi@Sentinelone""
-       description = ""rule to identify the fake teamviewer/zoom msi installer related to the ZLoaderAug 2021 â€˜Timâ€˜ campaign""
-         created = ""29 Aug 2021""
-         sample = ""a0c97cd4608d62e2124087ecd668c73ec3136c91""
-strings:
-                 $serial={0e ff d7 99 ba 5f 84 c8 24 4f 39 4d 88 1f 40 a3}
-                 $signer = ""Flyintellect Inc.""
-condition:
-          uint16(0) == 0xcfd0 and ($serial) and ($signer)
-}","",1,1631699665,"yara","","f550f3ae-e3b0-47aa-a40c-4b16f0c685a0","yara","misc"
-2af33464-2ba2-447e-8205-05b396306de9,4819,"Payload installation","yara","import ""pe""
-rule ZLoader_Payload_TIM_Campaign_Aug2021
-{
-   meta:
-       author = ""Antonio Pirozzi@Sentinelone""
-       description = ""rule to detect the main ZLoader payload related to the Aug 2021 'Tim' campaign""
-         created = ""29 Aug 2021""
-sample = ""dc945e57be6bdd3cc4894d6cff7dd90a76f6c416""
-   strings:
