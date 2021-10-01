@@ -1,0 +1,7 @@
+uuid,event_id,category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+e18c3943-6f48-4501-be71-f4918930f21f,4900,"Payload delivery","sha1","02c37ccdfccfe03560a4bf069f46e8ae3a5d2348","",1,1632296036,"sha1","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
+ae9d7f1f-eea3-4ca5-a101-052e29d11e8b,4900,"Payload delivery","md5","028878c4b6ab475ed0be97eca6f92af9","",1,1632296036,"md5","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
+b161283f-b182-4a72-be83-c6930c505e87,4900,"Payload delivery","sha256","030cbd1a51f8583ccfc3fa38a28a5550dc1c84c05d6c0f5eb887d13dedf1da01","",1,1632296036,"sha256","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
+ec9d975a-4a86-4094-9bd5-6696a09d80d3,4900,"Payload delivery","filename","w64time.dll","",1,1632296036,"filename","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
+89b61ac7-535c-4932-8359-f6da01ea87f0,4900,"Payload delivery","imphash","9f1a98b39d950e17c63cf0201b6879de","",1,1632296036,"imphash","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
+65d360f1-63cc-46c1-a0b9-833aa37a899f,4900,"Payload delivery","ssdeep","384:0+WcSZYbFzygpHURjqiWIi++voQIINWrrRW:RXp0RrH/IGn","",1,1632296036,"ssdeep","","3eff64d4-2648-459d-9645-4bb87fb35dc4","file","file"
