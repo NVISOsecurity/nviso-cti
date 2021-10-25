@@ -1,0 +1,7 @@
+uuid,event_id,category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+"d0db0819-7ea6-44fd-b2a6-547c6bee8670",5201,"Payload delivery","sha256","b7fb3623e31fb36fc3d3a4d99829e42910cad4da4fa7429a2d99a838e004366e","",1,1635152648,"","","","",""
+"c36d9918-c7c0-46c0-a8b1-925ef3a24b94",5201,"Payload delivery","sha1","ecdec44d3ce31532d9831b139ea04bf48cde9090","",1,1635152643,"","","","",""
+"21168ccc-4a08-4ffe-8ca0-6cc4a506e6ba",5201,"Payload delivery","md5","e2f2d2832da0facbd716d6ad298073ca","",1,1635152646,"","","","",""
+"01997091-71c5-4d96-aa53-095f7f1a103c",5201,"Payload delivery","hostname","http.ddspadus.com","",1,1635152700,"","","","",""
+"46c18f0a-5f5a-431e-b356-99f90e79b493",5201,"Payload delivery","hostname","www.disktest.com","",1,1635152703,"","","","",""
+"35f51958-24c8-47eb-99aa-b316ecc93ff5",5201,"Payload delivery","hostname","www.runblerx.com","",1,1635152705,"","","","",""
