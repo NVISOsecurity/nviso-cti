@@ -1,0 +1,14 @@
+uuid,event_id,category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+"0c7313a1-9726-4a5f-be19-381b1b62352b",6144,"Payload delivery","md5","1fecb6eb98e8ee72bb5f006dd79c6f2f","",1,1640703579,"","","","",""
+"beb7526f-3b0f-4458-ab37-c78ad0a3d504",6144,"Payload delivery","md5","4da2c2abcf1df9749b64b34160bd3ebf","",1,1640703579,"","","","",""
+"feb279c5-ab64-4cda-b279-459fcbdafd96",6144,"Payload delivery","md5","5dc7fbf2141f7dfe5215c94895bf959c","",1,1640703579,"","","","",""
+"a7d5dad2-b242-479d-811c-14c23052d69b",6144,"Payload delivery","md5","70e9416833b2f933b765042f8e1ea0bc","",1,1640703579,"","","","",""
+"24c4e165-b434-4d5e-b8b1-fe8481ca3360",6144,"Payload delivery","md5","8074f73f7742309b033676cd03eb0928","",1,1640703579,"","","","",""
+"0fe262c8-7ef5-4f8c-b8d2-c1b7aae9f9a4",6144,"Payload delivery","md5","8ae40c8418b2c36b58d2a43153544ddd","",1,1640703579,"","","","",""
+"a5a401f5-2e07-4a45-8089-1c1692aab2b3",6144,"Payload delivery","filename","%WinDir%\System32\9cda11af69ab0a2b6a9167f7131e7b93.key","",1,1640703629,"","","","",""
+"87c4ab3e-1648-44ae-8f85-08c60d1aa483",6144,"Network activity","url","http://email.yg9.me","",1,1640703725,"","","","",""
+"06f8f12b-1383-486b-b377-dbeee8e3fbfa",6144,"Network activity","url","http://google.vrthcobj.com","",1,1640703725,"","","","",""
+"5590b05e-490a-4b3b-9f59-e4731e53907f",6144,"Network activity","url","http://d.diragame.com","",1,1640703725,"","","","",""
+"2b1631f4-6a97-40b8-872f-f6d53758ccba",6144,"Network activity","hostname","toa.mygametoa.com","",1,1640703725,"","","","",""
+"464df009-046d-4523-913d-62c86fae55e6",6144,"Network activity","hostname","tob.mygametob.com","",1,1640703725,"","","","",""
+
