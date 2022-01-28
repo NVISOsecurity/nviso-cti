@@ -1,0 +1,41 @@
+category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+Payload delivery,md5,d94962550b90ddb3f80f62bd96bd9858,EFI Rootkit – Malicious CORE_DXE,1,1643114468
+Payload delivery,md5,c3b153347aed27435a18e789d8b67e0a,Modified WMI DLL Launcher,1,1643114468
+Payload delivery,md5,4d5eb9f6f501b4f6edf981a3c6c4d6fa,StealthVector,1,1643114468
+Payload delivery,md5,e7155c355c90dc113476ddcf765b187d,StealthVector,1,1643114468
+Payload delivery,md5,899608de6b59c63b4ae219c3c13502f5,StealthVector,1,1643114468
+Payload delivery,md5,4ef90ceef2cc9ff3121b34a9891bb28d,StealthVector,1,1643114468
+Payload delivery,md5,cff2772c44f6f86661ab0a4ffbf86833,StealthVector,1,1643114468
+Payload delivery,md5,5f9020983a61446a77af1976247c443d,InstallUtil Launcher,1,1643114468
+Payload delivery,md5,0603c8aaecbdc523cbd3495e93afb20c,StealthMutant,1,1643114468
+Payload delivery,md5,8c7598061d1e8741b8389a80bfd8b8f5,StealthMutant,1,1643114468
+Payload delivery,md5,f9f9d6fb3cb94b1cdf9e437141b59e16,StealthMutant,1,1643114468
+Payload delivery,md5,5fe6ce9c48d0ae98ec2ca1ec9759aad9,Microcin,1,1643114468
+Payload delivery,md5,50ff717a8e3106ddbf00fb42212879c5,Microcin,1,1643114468
+Payload delivery,md5,d98614600775781673b6df397cc4f476,Microcin,1,1643114468
+Payload delivery,md5,c9b250099e2dd27bb4170836ac480fe0,Go Implant,1,1643114468
+Payload delivery,md5,97ef7b8fcdcb0c0d9fbb93d0f7e6e3b6,Go Implant,1,1643114468
+Payload delivery,md5,4e4388d7967e0433d400c60475974d50,Mimikat_SSP,1,1643114468
+Payload delivery,md5,5f1c7602688e67f299f5bd533fa07880,Mimikat_SSP,1,1643114468
+Payload delivery,md5,45e862964ef4efdea181f3927d20e96d,xTalker Rootkit,1,1643114468
+Payload delivery,md5,4bc82105403974aa24bf02cfb66b8f7c,xTalker Rootkit,1,1643114468
+Network activity,hostname,mb.glbaitech.com,MoonBounce,1,1643114468
+Network activity,hostname,ns.glbaitech.com,ScrambleCross,1,1643114468
+Network activity,hostname,dev.kinopoisksu.com,ScrambleCross,1,1643114468
+Network activity,hostname,st.kinopoisksu.com,ScrambleCross,1,1643114468
+Network activity,ip-dst,172.107.231.236,ScrambleCross,1,1643114468
+Network activity,ip-dst,193.29.57.161,ScrambleCross,1,1643114468
+Network activity,ip-dst,92.38.178.246,ScrambleCross,1,1643114468
+Network activity,hostname,m.necemarket.com,Microcin,1,1643114468
+Network activity,hostname,holdmem.dbhubspi.com,Microcin,1,1643114468
+Network activity,ip-dst,5.188.93.132,Go malware,1,1643114468
+Network activity,ip-dst,5.189.222.33,Go malware,1,1643114468
+Network activity,ip-dst,5.183.103.122,Go malware,1,1643114468
+Network activity,ip-dst,5.188.108.228,Go malware,1,1643114468
+Network activity,ip-dst,45.128.132.6,Go malware,1,1643114468
+Network activity,ip-dst,92.223.105.246,Go malware,1,1643114468
+Network activity,ip-dst,5.183.101.21,Go malware,1,1643114468
+Network activity,ip-dst,5.183.101.114,Go malware,1,1643114469
+Network activity,ip-dst,45.128.135.15,Go malware,1,1643114469
+Network activity,ip-dst,5.188.108.22,Go malware,1,1643114469
+Network activity,ip-dst,70.34.201.16,Go malware,1,1643114469

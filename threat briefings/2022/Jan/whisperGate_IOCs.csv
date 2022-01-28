@@ -1,0 +1,40 @@
+category,type,value,comment,to_ids,date
+Payload delivery,sha256,a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92,,1,1642500982
+Payload delivery,sha256,dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78,,1,1642500982
+Payload delivery,sha256,923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6,,1,1642500982
+Payload delivery,filename,Tbopbh.jpg,,1,1642500982
+Payload delivery,sha256,9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d,,1,1642500982
+Payload delivery,sha256,35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a,,1,1642500982
+Payload delivery,filename,29AE7B30ED8394C509C561F6117EA671EC412DA50D435099756BBB257FAFB10B(AdvancedRun.exe,,1,1642500982
+Payload delivery,sha256,db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f,,1,1642500982
+Payload delivery,filename,Nmddfrqqrbyjeygggda.vbs,,1,1642500982
+Payload delivery,sha256,34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907,,1,1642500982
+Network activity,url,https://cdn.discordapp.com/attachments/928503440139771947/930108637681184768/Tbopbh.jpg,,1,1642500982
+Financial fraud,btc,1AVNM68gj6PGPFcJuftKATa4WLnzg8fpfv,Merged from event 6467,1,1643362602
+Payload delivery,sha256,a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92,Merged from event 6467,1,1643362602
+Payload delivery,filename,stage1.exe,Merged from event 6467,1,1643362602
+Payload delivery,sha256,dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78,Merged from event 6467,1,1643362602
+Payload delivery,filename,stage2.exe,Merged from event 6467,1,1643362602
+Financial fraud,btc,1AVNM68gj6PGPFcJuftKATa4WLnzg8fpfv,Merged from event 4629,1,1643362602
+Payload delivery,sha1,189166d382c73c242ba45889d57980548d4ba37e,Merged from event 6649,1,1643362622
+Payload delivery,md5,5d5c99a08a7d927346ca2dafa7973fc1,Merged from event 6649,1,1643362622
+Payload delivery,sha256,a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92,Merged from event 6649,1,1643362622
+Payload delivery,filename,Stage1.exe,Merged from event 6649,1,1643362622
+Payload delivery,sha1,16525cb2fd86dce842107eb1ba6174b23f188537,Merged from event 6649,1,1643362622
+Payload delivery,md5,14c8482f302b5e81e3fa1b18a509289d,Merged from event 6649,1,1643362622
+Payload delivery,sha256,dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78,Merged from event 6649,1,1643362622
+Payload delivery,filename,Stage2.exe,Merged from event 6649,1,1643362622
+Payload delivery,sha1,e74f0f6be5df7f533478c1cba3b97485f3ce5637,Merged from event 6649,1,1643362622
+Payload delivery,md5,c7e14d431a09cb6b85bff8e8cd8f709f,Merged from event 6649,1,1643362622
+Payload delivery,sha256,312bbd2041ddd599f1588d2a49da581e518500e21b41c57857dcd12565de247c,Merged from event 6649,1,1643362622
+Payload delivery,filename,Stage2.exe,Merged from event 6649,1,1643362622
+Payload delivery,sha1,b2d863fc444b99c479859ad7f012b840f896172e,Merged from event 6649,1,1643362622
+Payload delivery,md5,b3370eb3c5ef6c536195b3bea0120929,Merged from event 6649,1,1643362622
+Payload delivery,sha256,923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6,Merged from event 6649,1,1643362622
+Payload delivery,filename,Stage3.exe,Merged from event 6649,1,1643362622
+Payload delivery,sha1,82d29b52e35e7938e7ee610c04ea9daaf5e08e90,Merged from event 6649,1,1643362622
+Payload delivery,md5,e61518ae9454a563b8f842286bbdb87b,Merged from event 6649,1,1643362622
+Payload delivery,sha256,9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d,Merged from event 6649,1,1643362622
+Network activity,domain,famesurvelizerditis.sytes.net,Merged from event 6649,1,1643362622
+Network activity,domain,tancesucesm.chickenkiller.com,Merged from event 6649,1,1643362622
+Network activity,domain,artedriendfrim.hopto.org,Merged from event 6649,1,1643362622
