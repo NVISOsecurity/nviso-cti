@@ -1,0 +1,14 @@
+uuid,event_id,category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+"fba60d1e-7ee3-4783-a5ae-53cd21594e17",6660,"Payload delivery","sha256","0d01b24f7666f9bccf0f16ea97e41e0bc26f4c49cdfb7a4dabcc0a494b44ec9b","Maldoc",1,1643371259,"","","","",""
+"debea93f-5de6-4a33-8a9c-b66dbfbfab14",6660,"Payload delivery","sha256","0160375e19e606d06f672be6e43f70fa70093d2a30031affd2929a5c446d07c1","Maldoc",1,1643371259,"","","","",""
+"0d095474-dd06-4701-9bc2-9b6c76410da8",6660,"Network activity","domain","markettrendingcenter.com","",1,1643371260,"","","","",""
+"ae6e8028-a987-4093-a47f-bac44d1c83f2",6660,"Network activity","domain","lm-career.com","",1,1643371260,"","","","",""
+"48c39427-e2d3-4ff7-bf68-7ee13c13fb25",6660,"Payload delivery","sha256","4216f63870e2cdfe499d09fce9caa301f9546f60a69c4032cb5fb6d5ceb9af32","Payload",1,1643371260,"","","","",""
+"6211f102-895c-432f-ae9e-d8892e15fd08",6660,"Payload delivery","sha256","829eceee720b0a3e505efbd3262c387b92abdf46183d51a50489e2b157dac3b1","Payload",1,1643371260,"","","","",""
+"5c4876c3-a668-4567-a538-3a6e99aa6e95",6660,"Payload delivery","sha256","f14b1a91ed1ecd365088ba6de5846788f86689c6c2f2182855d5e0954d62af3b","Payload",1,1643371260,"","","","",""
+"b7efeeec-1a6b-44da-a98f-95ffae82c479",6660,"Payload delivery","sha256","660e60cc1fd3e155017848a1f6befc4a335825a6ae04f3416b9b148ff156d143","Payload",1,1643371260,"","","","",""
+"01da12e6-7372-44b8-b9ef-5732faf5e386",6660,"Payload delivery","sha256","11b5944715da95e4a57ea54968439d955114088222fd2032d4e0282d12a58abb","Payload",1,1643371260,"","","","",""
+"c0f044b2-ffb1-456a-bc04-84802eb65db0",6660,"Payload delivery","sha256","9d18defe7390c59a1473f79a2407d072a3f365de9834b8d8be25f7e35a76d818","Payload",1,1643371260,"","","","",""
+"f4bba039-7862-4ad9-b2ab-9963fc4b183f",6660,"Payload delivery","sha256","c677a79b853d3858f8c8b86ccd8c76ebbd1508cc9550f1da2d30be491625b744","Payload",1,1643371260,"","","","",""
+"9bc8e09a-7c17-45ef-9c3c-20f5ca7b26c8",6660,"Payload delivery","sha256","5098ec21c88e14d9039d232106560b3c87487b51b40d6fef28254c37e4865182","Payload",1,1643371260,"","","","",""
+
