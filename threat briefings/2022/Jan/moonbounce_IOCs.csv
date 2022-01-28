@@ -1,4 +1,4 @@
-category,type,value,comment,to_ids,date,object_relation,attribute_tag,object_uuid,object_name,object_meta_category
+category,type,value,comment,to_ids,date
 Payload delivery,md5,d94962550b90ddb3f80f62bd96bd9858,EFI Rootkit – Malicious CORE_DXE,1,1643114468
 Payload delivery,md5,c3b153347aed27435a18e789d8b67e0a,Modified WMI DLL Launcher,1,1643114468
 Payload delivery,md5,4d5eb9f6f501b4f6edf981a3c6c4d6fa,StealthVector,1,1643114468
