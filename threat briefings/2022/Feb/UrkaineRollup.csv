@@ -9,7 +9,7 @@ Payload delivery;sha256;dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384
 Payload delivery;sha256;923eb77b3c9e11d6c56052318c119c1a22d11ab71675e6b95d05eeb73d1accd6;File Tbopbh.jpg is the malicious payload that is in-memory loaded and kicks off the destructive capabilities;;;;
 Payload delivery;filename;Tbopbh.jpg;File Tbopbh.jpg is the malicious payload that is in-memory loaded and kicks off the destructive capabilities;;;;
 Payload delivery;sha256;9ef7dbd3da51332a78eff19146d21c82957821e464e8133e9594a07d716d892d;File Tbopbh.jpg is the malicious payload that is in-memory loaded and kicks off the destructive capabilities;;;;
-Payload delivery;sha256;35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a;WhisperGate Trojan;;;
+Payload delivery;sha256;35feefe6bd2b982cb1a5d4c1d094e8665c51752d0a6f7e3cae546d770c280f3a;WhisperGate Trojan;;;;;
 Payload delivery;sha256;db5a204a34969f60fe4a653f51d64eee024dbf018edea334e8b3df780eda846f;Ylvhwzflgbgctub.vbs, Script to specify C:\ as exception folder in Defender;;;;
 Payload delivery;filename;Nmddfrqqrbyjeygggda.vbs;Script to specify C:\ as exception folder in Defender;;;;
 Payload delivery;sha256;34ca75a8c190f20b8a7596afeb255f2228cb2467bd210b2637965b61ac7ea907;WhisperGate File Wiper;;;;
