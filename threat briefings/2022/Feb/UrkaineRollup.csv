@@ -150,5 +150,5 @@ Payload delivery;sha1;61b25d11392172e587d8da3045812a66c3385451;From https://twit
 Payload delivery;sha1;d9a3596af0463797df4ff25b7999184946e3bfa2;From https://twitter.com/fr0gger_/status/1496968238013759492?cxt=HHwWiIDSrcyrpsYpAAAA;sha1;HermeticWiper;file;file
 Payload delivery;sha1;0d8cc992f279ec45e8b8dfd05a700ff1f0437f29;From https://twitter.com/fr0gger_/status/1496968238013759492?cxt=HHwWiIDSrcyrpsYpAAAA;sha1;HermeticWiper;file;file
 Payload delivery;md5;eb845b7a16ed82bd248e395d9852f467;SentinelLabs - RCDATA_DRV_XP_X86 - ms-compressed;md5;HermeticWiper;file;file
-Payload delivery;md5;231b3385ac17e41c5bb1b1fcb59599c4;"SentinelLabs - RCDATA_DRV_X86	- ms-compressed;md5;HermeticWiper;file;file
+Payload delivery;md5;231b3385ac17e41c5bb1b1fcb59599c4;SentinelLabs - RCDATA_DRV_XP_X86 - ms-compressed;md5;HermeticWiper;file;file
 Payload delivery;md5;095a1678021b034903c85dd5acb447ad;SentinelLabs - RCDATA_DRV_XP_X64 - ms-compressed;md5;HermeticWiper;file;file
