@@ -21,10 +21,8 @@ Okta is a major Single Sign-On (SSO) provider, meaning one account can be used t
 ## RECOMMENDED ACTIONS
 
 It is advised that all organizations using Okta start an audit of the Okta logs immediately. Look for any abnormal access that differs from a known baseline.
-Okta has the capability of showing geolocation and historical login data for users. Examples are abnormal or unexpected logins from IPs or geolocations not in line with typical business-as-usual activities. Gathering and analyzing logs is explained as per the following Okta knowledge base article: https://help.okta.com/en/prod/Content/Topics/Reports/Reports_SysLog.htm   
 
-There are further claims LAPSUS$ actively recruits insiders at Fortune500 and other large organizations. While this statement cannot be verified or confirmed at this point, it is a known fact that a malicious insider can pose a huge risk.  
+Okta has the capability of showing geolocation and historical login data for users. Examples are abnormal or unexpected logins from IPs or geolocations not in line with typical business-as-usual activities. 
 
-Insider threats are not a new phenomenon: every organization has likely dealt with or suffered from an insider threat at one point or another, whether it be a risk that was looming such as a disgruntled employee with broad access rights, accidental spillage online (e.g. API key leaks) or as part of an attack campaign initiated by a cybercriminal gang such as LAPSUS$. 
+Gathering and analyzing logs is explained as per the following Okta knowledge base article: https://help.okta.com/en/prod/Content/Topics/Reports/Reports_SysLog.htm   
 
-NVISO suggests building out a plan that goes from policy to culture to technology and extends well beyond.  
