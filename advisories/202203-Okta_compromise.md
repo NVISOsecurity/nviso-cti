@@ -10,7 +10,9 @@ Since this breach looks to affect the Okta side of the authentication portals, a
 ![Alt text](/advisories/images/okta_screenshot_032022.jpg?raw=true "Screenshot from LAPSUS$ Telegram channel")
 
 The screenshots showed a timestamp of 2022-02-21 which would match the claim of access for two months but that cannot be confirmed. 
-Okta has since released a statement via Reuters, indicating that the company was investigating and would provide updates as information becomes available – it is potentially related to an earlier incident in January: https://www.reuters.com/technology/authentication-services-firm-okta-says-it-is-investigating-report-breach-2022-03-22/ 
+Okta has since released a statement, indicating that in January 2022, they detected an attempt to compromise the account of a third-party customer support engineer at one of their sub-processors, and believe the screenshots LAPSUS$ shared are connected to this January event:
+https://sec.okta.com/articles/2022/03/official-okta-statement-lapsus-claims  
+
 
 
 ## WHY THIS MATTERS
