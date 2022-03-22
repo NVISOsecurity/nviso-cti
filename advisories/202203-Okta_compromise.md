@@ -3,9 +3,9 @@
 
 ## SUMMARY
 On 22nd of March 2022, the threat actor group Lapsus$ claimed to have had access to Okta’s services for a period of at least two months. The screenshots showed that the “superuser” account also used other apps, including those from Amazon AWS, Zoom, Gmail, Crayon, Splunk, and Atlassian (Jira and Confluence).
-LAPSUS$ is the same threat actor group that hit Samsung and NVIDA which could add credence to them having the level of access. The same group also claimed to have access to Microsoft’s Azure DevOps portal and source code repos. 
+LAPSUS$ is the same threat actor group that hit Samsung and NVIDIA which could add credence to them having the level of access. The same group also claimed to have access to Microsoft’s Azure DevOps portal and source code repos. 
 
-Since this breach looks to affect the Okta side of the authentication portals, any organization using Okta should assume the access path was compromised. 
+Since this breach seems to affect the Okta side of the authentication portals, any organization using Okta should assume the access path was compromised. 
 
 ![Alt text](/advisories/images/okta_screenshot_032022.jpg?raw=true "Screenshot from LAPSUS$ Telegram channel")
 
