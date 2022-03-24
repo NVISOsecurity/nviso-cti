@@ -23,7 +23,7 @@ https://www.okta.com/blog/2022/03/updated-okta-statement-on-lapsus/
 
 - Lapsus$ also claimed to have breached Microsoft as well as many other companies and has leaked the "source code" of Bing and Bing Maps and Cortana to prove their Microsoft compromise. Security researchers are pouring over the data currently and it appears to be legitimate code from official Microsoft repositories. Lapsus$ also claims to have breached LGE again. They have not released the full extent of the data they captured at this time but did provide hashes of that data.
 
-- Lapsus$ seems to enjoy the furor that they stir up during these posts and sometimes ruin their foothold in a breached company by announcing the access to the world. They state that they do not care about this access being removed which points their motivation being that of cyber-anarchy.
+- Lapsus$ seems to enjoy the furore that they stir up during these posts and sometimes ruin their foothold in a breached company by announcing the access to the world. They state that they do not care about this access being removed which points their motivation being that of cyber-anarchy.
 
 ### Telegram screenshot
 
