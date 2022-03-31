@@ -64,7 +64,8 @@ public class BinderControllerAdvice {
 | CVE ID | Severity | CVSSv3 Score |
 |--------|----------|--------------|
 | [CVE-2022-22950](https://tanzu.vmware.com/security/cve-2022-22950) | Medium | 5.4 |
-| [CVE-2022-22963](https://tanzu.vmware.com/security/cve-2022-22963) | Medium | 5.4 |
+| [CVE-2022-22963](https://tanzu.vmware.com/security/cve-2022-22963) | Critical | 9.8 |
+| [CVE-2022-22965](https://tanzu.vmware.com/security/cve-2022-22965) | Critical | 9.8 |
 
 NIST: http://nvd.nist.gov/vuln/detail/CVE-2020-22950
 
@@ -91,3 +92,8 @@ Our goal is to provide a fast, brief, and actionable advisory on critical cyber 
 Was this advisory of value to your organization? Was the content clear and concise? Your comments and feedback are very important to us. 
 
 Please do not hesitate to reach out to threatintel@nviso.eu
+
+## MORE INFORMATION
+More information can be found on the links below.
+
+- Security Analysis of the latest Java RCE '0-day' vulnerabilities in Spring: [https://www.lunasec.io/docs/blog/spring-rce-vulnerabilities/](https://www.lunasec.io/docs/blog/spring-rce-vulnerabilities/)
