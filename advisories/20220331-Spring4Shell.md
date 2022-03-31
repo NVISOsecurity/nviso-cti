@@ -28,6 +28,7 @@ __Multiple exploits are publicly available resulting in remote code execution wi
 ## AFFECTED PRODUCTS
 -	Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions for the patchable CVE-2022-22963.
 -	Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions for the patchable  CVE-2022-22950.
+-	Spring Framework versions 5.3.0 - 5.3.17, 5.2.0 - 5.2.19 and older unsupported versions for the patchable CVE-2022-22965.
 -	Spring Framework-based projects leveraging the DataBinder and running on Java 9 or newer for the common weak configuration.
 
 ## AVAILABLE WORKAROUNDS
@@ -58,6 +59,7 @@ public class BinderControllerAdvice {
 ## AVAILABLE PATCHES
 -	Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions have CVE-2022-22963 fixed in versions 3.1.7 and 3.2.3.
 -	Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions have CVE-2022-22950 fixed in versions 5.3.17 and 5.2.20 (back-ported).
+-	Spring Framework versions 5.2.x have CVE-2022-22965 fixed in version 5.2.20+.
 -	No patches are available for the common weak configuration. NVISO assesses there is a low probability that the Spring Framework will release a patch to move to a “secure-by-default” DataBinder. As such we recommend you refer to the below recommended actions.
 
 ## CVSS SCORE AND CVE ID
