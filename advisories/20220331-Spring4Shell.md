@@ -1,17 +1,17 @@
 # NVISO CSIRT ADVISORY
-__DATE (2022-03-31)__
+__DATE (2022-03-31), [UPDATED](https://github.com/NVISOsecurity/nviso-cti/commits/master/advisories/20220331-Spring4Shell.md) (2022-04-01)__
 
 ## SUMMARY
-Between March 28th and March 29th two vulnerabilities and one misconfiguration affecting the popular Java-based Spring projects were disclosed. The impact, depending on the weakness, can range from a Denial of Service (DoS) up to Remote Code Execution (RCE).
+Between March 28th and March 29th three vulnerabilities (one highlighting a common weak configuration) affecting the popular Java-based Spring projects were disclosed. The impact, depending on the weakness, can range from a Denial of Service (DoS) up to Remote Code Execution (RCE).
 
-The Spring projects (Spring Framework and Spring Cloud Functions) are commonly used in the Java ecosystem and often deployed on Java-based servers such as Apache Tomcat. Java-based servers/applications are used across a wide variety of the industry as was observed late 2021 with the Log4Shell vulnerability (CVE-2021-44228).
+The Spring projects (Spring Framework, Spring Boot and Spring Cloud Functions) are commonly used in the Java ecosystem and often deployed on Java-based servers such as Apache Tomcat. Java-based servers/applications are used across a wide variety of the industry as was observed late 2021 with the Log4Shell vulnerability (CVE-2021-44228).
 
-While the vulnerabilities have available patches, the misconfiguration item is recorded in the Spring documentation and requires Spring-based code-bases to implement safeguards against potential abuses. __Successful abuse may lead to RCE (Remote Code Execution)__.
+While all vulnerabilities have available patches, the insecure data-binding is recorded in the Spring documentation and requires Spring-based code-bases to implement safeguards against potential further abuses. __Successful abuse may lead to RCE (Remote Code Execution)__.
 
-### Spring Framework
+### Spring Framework (incl. dependent Spring Boot)
 The Spring Framework is a popular application framework for the Java language providing developers with generic modules easing application development (authentication, authorization, data access, MVC, ...). The wide variety of modules has resulted in the Spring Framework being one of the most widely-used frameworks within the Java application ecosystem.
 
-A common weak configuration in Spring Framework’s DataBinder usage was discovered (see [VMWare advisory](https://tanzu.vmware.com/security/cve-2022-22965)) which, when abused, can lead to __remote code execution__ (CVE-2022-22965) in your Spring Core applications. A typical abuse of this vulnerability can consist of intruders deploying a reverse shell on your infrastructure.
+An insecure data-binding in the Spring Framework’s DataBinder usage was discovered (see [VMWare advisory](https://tanzu.vmware.com/security/cve-2022-22965)) which, when abused, can lead to __remote code execution__ (CVE-2022-22965) in your Spring Core applications. A typical abuse of this vulnerability can consist of intruders deploying a reverse shell on your infrastructure. While patches prevent the currently known abuses, [Spring's early RCE announcment](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) correctly highlights that there may be further ways to abuse the data-binding feature unless developpers implement additional safeguards.
 
 Furthermore, as reported by [this VMWare advisory](https://tanzu.vmware.com/security/cve-2022-22950), Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions are vulnerable to a __denial of service attack__ (CVE-2022-22950). It is possible for a user to provide a specially crafted SpEL ([Spring Expression Language](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/expressions.html)) expression that may cause a denial of service. 
 
@@ -21,7 +21,7 @@ Spring Cloud is a Spring project aimed at easing Spring application deployment w
 As reported by [the advisory](https://tanzu.vmware.com/security/cve-2022-22963), Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions are vulnerable to a __local resource inclusion__ (CVE-2022-22963). When using the optional routing functionality, it is possible for a user to provide a specially crafted SpEL ([Spring Expression Language](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/expressions.html)) as a routing-expression that may result in access to local resources.
 
 ## WHY THIS MATTERS
-__While both vulnerabilities have patches available, the common weak configuration leading to a remote code execution is likely to affect many projects leveraging Spring Framework’s DataBinder. DataBinder would require additional configuration to be secured while it properly operates as a data binder without (also referred to as insecure defaults). Furthermore, sample projects and code snippets provided by the Spring guides do not configure the restrictions required to prevent successful exploitation (e.g.: the “[Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)” guide [as of 2022-03-31](https://github.com/spring-guides/gs-handling-form-submission/tree/066ce64bf0933f0f8b1aa939e40b05985dec4c8d)), resulting in developers commonly adopting similar bad practices.__
+__While all vulnerabilities have patches available, the insecure data-binding leading to a remote code execution is likely to affect many projects leveraging Spring Framework’s DataBinder. DataBinder would require additional configuration to be secured while it properly operates as a data binder without (also referred to as insecure defaults). Furthermore, sample projects and code snippets provided by the Spring guides do not configure the restrictions required to prevent successful exploitation (e.g.: the “[Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)” guide [as of 2022-03-31](https://github.com/spring-guides/gs-handling-form-submission/tree/066ce64bf0933f0f8b1aa939e40b05985dec4c8d)), resulting in developers commonly adopting similar bad practices.__
 
 __Multiple exploits are publicly available resulting in remote code execution within Spring Core applications. Certain exploits have been confirmed to achieve RCE.__
 
@@ -29,38 +29,28 @@ __Multiple exploits are publicly available resulting in remote code execution wi
 -	Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions for the patchable CVE-2022-22963.
 -	Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions for the patchable  CVE-2022-22950.
 -	Spring Framework versions 5.3.0 - 5.3.17, 5.2.0 - 5.2.19 and older unsupported versions for the patchable CVE-2022-22965.
--	Spring Framework-based projects leveraging the DataBinder and running on Java 9 or newer for the common weak configuration.
+-	Spring Boot versions 2.6.5, 2.5.11 and older unsupported versions are dependent on vulnerable Spring Framework versions.
+-	Spring Framework-based projects leveraging the DataBinder and running on Java Development Kit (JDK) 9 or newer, packaged as a WAR archive, for the common weak configuration.
 
 ## AVAILABLE WORKAROUNDS
-While both vulnerabilities have available patches, fixing the weak configuration requires implementing additional code as outlined in the [Spring Framework’s DataBinder documentation](https://docs.spring.io/spring-framework/docs/2.0.x/javadoc-api/org/springframework/validation/DataBinder.html).
+While all vulnerabilities have available patches, fixing the weak configuration requires implementing additional code as outlined in the [Spring Framework’s DataBinder documentation](https://docs.spring.io/spring-framework/docs/2.0.x/javadoc-api/org/springframework/validation/DataBinder.html).
 
 ### Spring Framework
 
-To prevent the abuse of the DataBinder, it is possible to restrict the fields that should be allowed for binding through [`DataBinder#setAllowedFields`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/DataBinder.html#setAllowedFields-java.lang.String...-). In situations where the set of fields is unknown, it is possible to prohibit the binding of currently abused fields through [`DataBinder#setDisallowedFields`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/DataBinder.html#setDisallowedFields-java.lang.String...-). *Praetorian* released an application-wide mitigation based on the deny-list approach at “[Spring Core on JDK9+ is vulnerable to remote code execution](https://www.praetorian.com/blog/spring-core-jdk9-rce/)”. The following code enforces an application-wide deny-list on all controllers by calling their respective DataBinder’s `setDisallowedFields` method:
+#### All Versions (incl. Patched, Preferred)
+To prevent the abuse of the DataBinder, developers should restrict the fields allowed for binding through [`DataBinder#setAllowedFields`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/DataBinder.html#setAllowedFields-java.lang.String...-). 
 
-```java
-import org.springframework.core.Ordered;
-import org.springframework.core.annotation.Order;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.InitBinder;
-
-@ControllerAdvice
-@Order(10000)
-public class BinderControllerAdvice {
-    @InitBinder
-    public void setAllowedFields(WebDataBinder dataBinder) {
-         String[] denylist = new String[]{"class.*", "Class.*", "*.class.*", "*.Class.*"};
-         dataBinder.setDisallowedFields(denylist);
-    }
-}
-```
+#### Unpatched Versions (Fallback)
+In situations where the set of fields is unknown (rendering the above mitigation impossible), it is possible to prohibit the binding of currently abused fields through [`DataBinder#setDisallowedFields`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/DataBinder.html#setDisallowedFields-java.lang.String...-). This deny-list approach does however only protect against currently known abuses as opposed to the above allow-list approach. *Spring* released multiple suggested work-arounds as application-wide mitigations based on this deny-list approach at “[Spring Framework RCE, Early Announcement](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement)”.
 
 ## AVAILABLE PATCHES
 -	Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions have CVE-2022-22963 fixed in versions 3.1.7 and 3.2.3.
 -	Spring Framework versions 5.3.x should upgrade to 5.3.18+ to fix CVE-2022-22950 and CVE-2022-22965. 
 -	Spring Framework versions 5.2.x should upgrade to 5.2.20+ to fix CVE-2022-22950 and CVE-2022-22965.
--	No patches are available for the common weak configuration. NVISO assesses there is a low probability that the Spring Framework will release a patch to move to a “secure-by-default” DataBinder. As such we recommend you refer to the below recommended actions.
+-	Spring Boot (dependent on Spring Framework) versions 2.6.x should upgrade to 2.6.6+ in order to include the updated Spring Framework (5.3.18) dependency for CVE-2022-22965.
+-	Spring Boot (dependent on Spring Framework) versions 2.5.x should upgrade to 2.5.12+ in order to include the updated Spring Framework (5.3.18) dependency for CVE-2022-22965. 
+
+While a partial patch is available for the insecure data-binding. NVISO assesses there is a low probability that the Spring Framework will release a patch to move to a “secure-by-default” DataBinder. As such we recommend you refer to the below recommended actions.
 
 ## CVSS SCORE AND CVE ID
 | CVE ID | Severity | CVSSv3 Score |
@@ -82,7 +72,7 @@ MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22963
 MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22965
 
 ## RECOMMENDED ACTIONS
-We recommend to review Java-based projects within your environment to identify and update any vulnerable Spring Cloud Functions and Spring Core libraries (Spring Framework) to patched versions as mentioned above. Considering exploit code is available it is recommended to prioritize the deployment of upgrading to 5.2.20+ or 5.3.18+.
+We recommend to review Java-based projects within your environment to identify and update any vulnerable Spring Cloud Functions, Spring Core and Spring Boot libraries (Spring Framework) to patched versions as mentioned above. Considering exploit code is available it is recommended to prioritize the deployment of upgrading to 5.2.20+ or 5.3.18+.
 
 We also encourage organizations to review Java-based projects leveraging the Spring Framework’s DataBinder to ensure the Binders’ `AllowedFields` properties are configured as mentioned in the above workarounds.
 
