@@ -82,7 +82,7 @@ MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22963
 MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22965
 
 ## RECOMMENDED ACTIONS
-We recommend to review Java-based projects within your environment to identify and update any vulnerable Spring Cloud Functions and Spring Core libraries to patched versions as mentioned above.
+We recommend to review Java-based projects within your environment to identify and update any vulnerable Spring Cloud Functions and Spring Core libraries (Spring Framework) to patched versions as mentioned above. Considering exploit code is available it is recommended to prioritize the deployment of upgrading to 5.2.20+ or 5.3.18+.
 
 We also encourage organizations to review Java-based projects leveraging the Spring Framework’s DataBinder to ensure the Binders’ `AllowedFields` properties are configured as mentioned in the above workarounds.
 
