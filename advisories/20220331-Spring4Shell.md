@@ -59,7 +59,7 @@ public class BinderControllerAdvice {
 ## AVAILABLE PATCHES
 -	Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions have CVE-2022-22963 fixed in versions 3.1.7 and 3.2.3.
 -	Spring Framework versions 5.3.x should upgrade to 5.3.18+ to fix CVE-2022-22950 and CVE-2022-22965. 
--	Spring Framework versions 5.2.x have CVE-2022-22963 and CVE-2022-22965 fixed in version 5.2.20+.
+-	Spring Framework versions 5.2.x should upgrade to 5.2.20+ to fix CVE-2022-22950 and CVE-2022-22965.
 -	No patches are available for the common weak configuration. NVISO assesses there is a low probability that the Spring Framework will release a patch to move to a “secure-by-default” DataBinder. As such we recommend you refer to the below recommended actions.
 
 ## CVSS SCORE AND CVE ID
@@ -73,9 +73,13 @@ NIST: http://nvd.nist.gov/vuln/detail/CVE-2020-22950
 
 NIST: http://nvd.nist.gov/vuln/detail/CVE-2020-22963
 
+NIST: http://nvd.nist.gov/vuln/detail/CVE-2020-22965
+
 MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22950
 
 MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22963
+
+MITRE: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22965
 
 ## RECOMMENDED ACTIONS
 We recommend to review Java-based projects within your environment to identify and update any vulnerable Spring Cloud Functions and Spring Core libraries to patched versions as mentioned above.
