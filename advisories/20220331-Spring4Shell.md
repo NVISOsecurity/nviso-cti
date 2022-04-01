@@ -11,7 +11,7 @@ While the vulnerabilities have available patches, the misconfiguration item is r
 ### Spring Framework
 The Spring Framework is a popular application framework for the Java language providing developers with generic modules easing application development (authentication, authorization, data access, MVC, ...). The wide variety of modules has resulted in the Spring Framework being one of the most widely-used frameworks within the Java application ecosystem.
 
-A common weak configuration in Spring Framework’s DataBinder usage was discovered which, when abused, can lead to __remote code execution__ in your Spring Core applications.
+A common weak configuration in Spring Framework’s DataBinder usage was discovered (see [VMWare advisory](https://tanzu.vmware.com/security/cve-2022-22965)) which, when abused, can lead to __remote code execution__ in your Spring Core applications. A typical abuse of this vulnerability can consist of intruders deploying a reverse shell on your infrastructure.
 
 Furthermore, as reported by [this VMWare advisory](https://tanzu.vmware.com/security/cve-2022-22950), Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions are vulnerable to a __denial of service attack__ (CVE-2022-22950). It is possible for a user to provide a specially crafted SpEL ([Spring Expression Language](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/expressions.html)) expression that may cause a denial of service. 
 
@@ -99,3 +99,4 @@ Please do not hesitate to reach out to threatintel@nviso.eu
 More information can be found on the links below.
 
 - Security Analysis of the latest Java RCE '0-day' vulnerabilities in Spring: [https://www.lunasec.io/docs/blog/spring-rce-vulnerabilities/](https://www.lunasec.io/docs/blog/spring-rce-vulnerabilities/)
+- CVE-2022-22965: Spring Core Remote Code Execution Vulnerability Exploited In the Wild (SpringShell) [https://unit42.paloaltonetworks.com/cve-2022-22965-springshell/](https://unit42.paloaltonetworks.com/cve-2022-22965-springshell/)
