@@ -1,0 +1,27 @@
+category;type;value;comment
+Payload delivery;md5;ca9290709843584aecbd6564fb978bd6;Інструкція з антивірусного захисту.doc (документ-приманка)
+Payload delivery;md5;cf204319f7397a6a31ecf76c9531a549;Інструкція користувачів.doc (документ-приманка)
+Payload delivery;md5;b8b7a10dcc0dad157191620b5d4e5312;BitdefenderWindowsUpdatePackage.exe
+Payload delivery;md5;2fdf9f3a25e039a41e743e19550d4040;alt.exe (Discord downloader)
+Payload delivery;md5;aa5e8268e741346c76ebfd1f27941a14;one.exe (містить Cobalt Strike Beacon)
+Payload delivery;md5;9ad4a2dfd4cb49ef55f2acd320659b83;wisw.exe (Discord downloader) (2022-03-06 10:36:07)
+Payload delivery;md5;15c525b74b7251cfa1f7c471975f3f95;dropper.exe (Go downloader)
+Payload delivery;md5;c8bf238641621212901517570e96fae7;java-sdk.exe (Go downloader)
+Payload delivery;md5;4f11abdb96be36e3806bada5b8b2b8f8;oracle-java.exe (GrimPlant)
+Payload delivery;md5;9ea3aaaeb15a074cd617ee1dfdda2c26;microsoft-cortana.exe (GraphSteel) (2022-03-01 17:23:26)
+Network activity;url;https://forkscenter.fr/BitdefenderWindowsUpdatePackage.exe;
+Network activity;url;https://forkscenter.fr/Sdghrt_umrj6/wisw.exe;
+Network activity;url;https://cdn.discordapp.com/attachments/947916997713358890/949948174636830761/one.exe;
+Network activity;url;https://cdn.discordapp.com/attachments/947916997713358890/949948174838165524/dropper.exe;
+Network activity;url;https://cdn.discordapp.com/attachments/947916997713358890/949978571680673802/cesdf.exe;
+Network activity;url;https://nirsoft.me/s/2MYmbwpSJLZRAtXRgNTAUjJSH6SSoicLPIrQl/field-keywords/;
+Network activity;url;https://nirsoft.me/nEDFzTtoCbUfp9BtSZlaq6ql8v6yYb/avp/amznussraps/;
+Network activity;url;http://45.84.0.116:443/i;
+Network activity;url;http://45.84.0.116:443/m;
+Network activity;url;http://45.84.0.116:443/p;
+Network activity;url;ws://45.84.0.116:443/c;
+Network activity;domain;forkscenter.fr;
+Network activity;domain;nirsoft.me;
+Network activity;ip-dst;45.84.0.116;
+Network activity;ip-dst;156.146.50.5;
+Payload delivery;filename;%USERPROFILE%\AppData\Local\Temp\Rsjdjfvj.txt;
