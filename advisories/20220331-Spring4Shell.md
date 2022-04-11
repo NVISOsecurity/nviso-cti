@@ -1,5 +1,5 @@
 # NVISO CSIRT ADVISORY
-__DATE (2022-03-31), [UPDATED](https://github.com/NVISOsecurity/nviso-cti/commits/master/advisories/20220331-Spring4Shell.md) (2022-04-01)__
+__DATE (2022-03-31), [UPDATED](https://github.com/NVISOsecurity/nviso-cti/commits/master/advisories/20220331-Spring4Shell.md) (2022-04-11)__
 
 ## SUMMARY
 Between March 28th and March 29th three vulnerabilities (one highlighting a common weak configuration) affecting the popular Java-based Spring projects were disclosed. The impact, depending on the weakness, can range from a Denial of Service (DoS) up to Remote Code Execution (RCE).
@@ -81,6 +81,11 @@ NVISO has observed that the currently available proof-of-concepts (PoC) altering
 Finally, it is recommended to protect Java-based servers with:
 -	A WAF (web-application firewall) to block some of the currently known exploits abusing the weaknesses.
 -	An AV (antivirus) and/or EDR (endpoint-detection and response) solution to block parts of the currently known exploits or dropped post-exploitation toolkits (e.g. web-shells).
+
+## Scanners
+https://github.com/jschauma/check-springshell
+
+https://github.com/hillu/local-spring-vuln-scanner
 
 ## CONTACT AND FEEDBACK
 Our goal is to provide a fast, brief, and actionable advisory on critical cyber security incidents.
