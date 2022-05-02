@@ -1,0 +1,8 @@
+category,type,value,comment,comment2
+Payload delivery,sha1,fd9c17c35a68fc505235e20c6e50c622aed8dea0,108_100.exe, Industroyer2
+Payload delivery,sha1,6fa04992c0624c7aa3ca80da6a30e6de91226a16,zrada.exe, ArguePatch
+Payload delivery,sha1,9ce1491ce69809f92ae1fe8d4c0783bd1d11fbe7,pa.pay, TailJump (Encrypted CaddyWiper)
+Payload delivery,sha1,0090cb4de31d2d3bca55fd4a36859921b5fc5dae,link.ps1, Script which enumerates GPO
+Payload delivery,sha1,d27d0b9bb57b2bab881e0efb97c740b7e81405df,sc.sh, OrcShred (Linux worm)
+Payload delivery,sha1,3cdbc19bc4f12d8d00b81380f7a2504d08074c15,wobf.sh, AwfulShred (Linux wiper)
+Payload delivery,sha1,8fc7646fa14667d07e3110fe754f61a78cfde6bc,wsol.sh, SoloShred (Solaris wiper)
