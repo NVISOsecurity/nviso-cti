@@ -1,0 +1,19 @@
+category,type,value,comment
+Network activity,url,http://138.124.184.220/work_443.bin_m2.ps1,Stage 1, Powershell
+Payload delivery,sha256,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b,Stage 2, Powershell, Powertrash Loader
+Payload delivery,sha256,7bc14d231c92eeeb58197c9fca5c8d029d7e5cf9fbfe257759f5c87da38207d9,Core Impact Agent
+Network activity,ip-dst,185.117.90.187,C2
+Network activity,hostname,vm431777.stark-industries.solutions,Rocket Kitten APT
+Network activity,domain,pq.hosting,Rocket Kitten APT
+Network activity,domain,adultfilms.su,Neculiţî Ivan
+Network activity,domain,help-porno.ru,Neculiţî Ivan
+Network activity,domain,mi-vmecte.ru,Neculiţî Ivan
+Network activity,domain,morene.host,Neculiţî Ivan
+Network activity,domain,pq.md,Neculiţî Ivan
+Payload delivery,md5,19d88d7db3b7594c13bf4071632a5013,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b: Enriched via the virustotal module
+Payload delivery,sha1,f42cd7c024969b8b589620b0643e0d974a95c84d,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b: Enriched via the virustotal module
+Payload delivery,sha256,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b: Enriched via the virustotal module
+Network activity,ip-dst,185.117.90.187,185.117.90.187: Enriched via the virustotal module
+Network activity,domain,erijcvmnjcesisdin.xyz,185.117.90.187: Enriched via the virustotal module
+Network activity,url,http://185.117.90.187/,185.117.90.187: Enriched via the virustotal module
+Network activity,url,https://erijcvmnjcesisdin.xyz/,185.117.90.187: Enriched via the virustotal module
