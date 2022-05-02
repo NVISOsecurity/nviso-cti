@@ -1,4 +1,4 @@
-category,type,value,comment
+category,type,value,comment,comment2
 Network activity,url,http://138.124.184.220/work_443.bin_m2.ps1,Stage 1, Powershell
 Payload delivery,sha256,746ffc3bb7fbe4ad229af1ed9b6e1db314880c0f9cb55aec5f56da79bce2f79b,Stage 2, Powershell, Powertrash Loader
 Payload delivery,sha256,7bc14d231c92eeeb58197c9fca5c8d029d7e5cf9fbfe257759f5c87da38207d9,Core Impact Agent
