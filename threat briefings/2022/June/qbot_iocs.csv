@@ -1,0 +1,5 @@
+category,type,value,comment,to_ids
+Network activity,ip-dst,45.76.53.253,Download site,1
+Payload delivery,md5,242d2fa02535599dae793e731b6db5a2,RTF with callout to 45.76.53.253,1
+Payload delivery,md5,dbd2b7048b3321c87a768ed7581581db,PowerShell script that steals information and exfiltrates it to 45.77.156.179,1
+Network activity,ip-dst,45.77.156.179,Exfiltration location,1

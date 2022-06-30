@@ -1,0 +1,15 @@
+category,type,value,comment,to_ids
+Payload delivery,md5,5cfdb7340316abc5586448842c52aabc,Dropper google.log,1
+Payload delivery,md5,93c186c33e4bbe2abdcc6dfea86fbbff,Dropper,1
+Payload delivery,md5,5a912beec77d465fc2a27f0ce9b4052b,Dll Loader Stage 2 iiswmi.dll,1
+Payload delivery,md5,f595edf293af9b5b83c5ffc2e4c0f14b,Dll Loader Stage 3 websvc.dll,1
+Payload delivery,md5,5a531f237b8723396bcfd7c24885177f,Dll Loader Stage 2 fveapi.dll,1
+Payload delivery,md5,1ad6dccb520893b3831a9cfe94786b82,Dll Loader Stage 2 fveapi.dll,1
+Payload delivery,md5,8a00d23192c4441c3ee3e56acebf64b0,Samurai Backdoor,1
+Payload delivery,md5,5e721804f556e20bf9ddeec41ccf915d,Ninja Trojan,1
+Network activity,ip-dst,149.28.28.159,C2,1
+Network activity,hostname,eohsdnsaaojrhnqo.windowshost.us,C2,1
+Persistence mechanism,regkey,$HKLM\System\ControlSet\Services\WebUpdate,,0
+Persistence mechanism,regkey,$HKLM\System\ControlSet\Services\PowerService,,0
+Persistence mechanism,regkey,$HKLM\SOFTWARE\Classes\Interface\{6FD0637B-85C6-D3A9-CCE9-65A3F73ADED9},,0
+Persistence mechanism,regkey,$HKLM\SOFTWARE\Classes\Interface\{AFDB6869-CAFA-25D2-C0E0-09B80690F21D},,0
