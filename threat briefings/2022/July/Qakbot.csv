@@ -1,0 +1,21 @@
+category,type,value,object_relation,object_uuid
+Payload delivery,sha1,899c8c030a88ebcc0b3e8482fbfe31e59d095641,sha1,98ece724-9ea8-4658-89a9-2aba878e24af
+Payload delivery,md5,d79ac5762e68b8f19146c78c85b72d5e,md5,98ece724-9ea8-4658-89a9-2aba878e24af
+Payload delivery,sha256,cb83a65a625a69bbae22d7dd87686dc2be8bd8a1f8bb40e318e20bc2a6c32a8e,sha256,98ece724-9ea8-4658-89a9-2aba878e24af
+Payload delivery,filename,Report Jul 14 47787.html,filename,98ece724-9ea8-4658-89a9-2aba878e24af
+Payload delivery,sha1,8e7984a0af138aac5427b785e4385cdc6b9b8963,sha1,bbe3dbb8-fdcd-416d-88b8-1f661a325f83
+Payload delivery,md5,a4a09d3d5905910ad2a207522dcec67c,md5,bbe3dbb8-fdcd-416d-88b8-1f661a325f83
+Payload delivery,sha256,197ee022aa311568cd98fee15baf2ee1a2f10ab32a6123b481a04ead41e80eee,sha256,bbe3dbb8-fdcd-416d-88b8-1f661a325f83
+Payload delivery,filename,Report Jul 14 47787.zip,filename,bbe3dbb8-fdcd-416d-88b8-1f661a325f83
+Payload delivery,sha1,b2a3d6a620c050fd03f1e16649c6b5bfdc195089,sha1,a0ba29df-1c43-4eb7-bc06-1b1d121ec8cf
+Payload delivery,md5,b6cb21060e11c251ed52d92e83cbcf42,md5,a0ba29df-1c43-4eb7-bc06-1b1d121ec8cf
+Payload delivery,sha256,9887e7a708b4fc3a91114f78ebfd8dcc2d5149fd9c3657872056ca3e5087626d,sha256,a0ba29df-1c43-4eb7-bc06-1b1d121ec8cf
+Payload delivery,filename,Report Jul 14 47787.iso,filename,a0ba29df-1c43-4eb7-bc06-1b1d121ec8cf
+Payload delivery,sha1,48bf9b838ecb90b8389a0c50b301acc32b44b53e,sha1,cbf7d2fb-fcef-44a3-af7c-7f90b60f66d7
+Payload delivery,md5,21930abbbb06588edf0240cc60302143,md5,cbf7d2fb-fcef-44a3-af7c-7f90b60f66d7
+Payload delivery,sha256,8760c4b4cc8fdcd144651d5ba02195d238950d3b70abd7d7e1e2d42b6bda9751,sha256,cbf7d2fb-fcef-44a3-af7c-7f90b60f66d7
+Payload delivery,filename,WindowsCodecs.dll,filename,cbf7d2fb-fcef-44a3-af7c-7f90b60f66d7
+Payload delivery,sha1,25beb06d731192ea20bc7eb0c81ae952f2a0bd33,sha1,1d843b43-1154-4300-9381-1e84e5abf9e6
+Payload delivery,md5,a8c071f4d69627f581fa15495218bff7,md5,1d843b43-1154-4300-9381-1e84e5abf9e6
+Payload delivery,sha256,c992296a35528b12b39052e8dedc74d42c6d96e5e63c0ac0ad9a5545ce4e8d7e,sha256,1d843b43-1154-4300-9381-1e84e5abf9e6
+Payload delivery,filename,7533.dll,filename,1d843b43-1154-4300-9381-1e84e5abf9e6

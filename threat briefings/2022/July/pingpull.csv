@@ -1,0 +1,162 @@
+category,type,value,comment
+Payload delivery,sha256,de14f22c88e552b61c62ab28d27a617fb8c0737350ca7c631de5680850282761,Malware sample
+Payload delivery,sha256,b4aabfb8f0327370ce80970c357b84782eaf0aabfc70f5e7340746f25252d541,Malware sample
+Payload delivery,sha256,fc2147ddd8613f08dd833b6966891de9e5309587a61e4b35408d56f43e72697e,Malware sample
+Payload delivery,sha256,c55ab8fdd060fb532c599ee6647d1d7b52a013e4d8d3223b361db86c1f43e845,Malware sample
+Payload delivery,sha256,f86ebeb6b3c7f12ae98fe278df707d9ebdc17b19be0c773309f9af599243d0a3,Malware sample
+Payload delivery,sha256,8b664300fff1238d6c741ac17294d714098c5653c3ef992907fc498655ff7c20,Malware sample
+Payload delivery,sha256,1ce1eb64679689860a1eacb76def7c3e193504be53ebb0588cddcbde9d2b9fe6,Malware sample
+Payload delivery,domain,df.micfkbeljacob.com,C2 server
+Payload delivery,domain,t1.hinitial.com,C2 server
+Network activity,ip-dst,5.181.25.55,C2 server
+Network activity,ip-dst,92.38.135.62,C2 server
+Network activity,ip-dst,5.8.71.97,C2 server
+Network activity,domain,micfkbeljacob.com,Malicious domain
+Network activity,hostname,df.micfkbeljacob.com,Malicious domain
+Payload delivery,domain,jack.micfkbeljacob.com,Malicious domain
+Network activity,domain,hinitial.com,Malicious domain
+Payload delivery,domain,v2.hinitial.com,Malicious domain
+Payload delivery,domain,v3.hinitial.com,Malicious domain
+Payload delivery,domain,v4.hinitial.com,Malicious domain
+Payload delivery,domain,v5.hinitial.com,Malicious domain
+Payload delivery,domain,goodjob36.publicvm.com,"Warning: Potential false positives:
+Top 1,000,000 most-used sites from Tranco
+-----
+Malicious domain"
+Payload delivery,domain,goodluck23.jp.us,Malicious domain
+Payload delivery,domain,helpinfo.publicvm.com,"Warning: Potential false positives:
+Top 1,000,000 most-used sites from Tranco
+-----
+Malicious domain"
+Payload delivery,domain,mailedc.publicvm.com,"Warning: Potential false positives:
+Top 1,000,000 most-used sites from Tranco
+-----
+Malicious domain"
+Network activity,ip-dst,101.36.102.34,
+Network activity,ip-dst,101.36.102.93,
+Network activity,ip-dst,101.36.114.167,
+Network activity,ip-dst,101.36.123.191,
+Network activity,ip-dst,103.116.47.65,
+Network activity,ip-dst,103.179.188.93,
+Network activity,ip-dst,103.22.183.131,
+Network activity,ip-dst,103.22.183.138,
+Network activity,ip-dst,103.22.183.141,
+Network activity,ip-dst,103.22.183.146,
+Network activity,ip-dst,103.51.145.143,
+Network activity,ip-dst,103.61.139.71,
+Network activity,ip-dst,103.61.139.72,
+Network activity,ip-dst,103.61.139.75,
+Network activity,ip-dst,103.61.139.78,
+Network activity,ip-dst,103.61.139.79,
+Network activity,ip-dst,103.78.242.62,
+Network activity,ip-dst,118.193.56.130,
+Network activity,ip-dst,118.193.62.232,
+Network activity,ip-dst,123.58.196.208,
+Network activity,ip-dst,123.58.198.205,
+Network activity,ip-dst,123.58.203.19,
+Network activity,ip-dst,128.14.232.56,
+Network activity,ip-dst,152.32.165.70,
+Network activity,ip-dst,152.32.203.199,
+Network activity,ip-dst,152.32.221.222,
+Network activity,ip-dst,152.32.245.157,
+Network activity,ip-dst,154.222.238.50,
+Network activity,ip-dst,154.222.238.51,
+Network activity,ip-dst,165.154.52.41,
+Network activity,ip-dst,165.154.70.51,
+Network activity,ip-dst,167.88.182.166,
+Network activity,ip-dst,176.113.71.62,
+Network activity,ip-dst,2.58.242.230,
+Network activity,ip-dst,2.58.242.231,
+Network activity,ip-dst,2.58.242.235,
+Network activity,ip-dst,202.87.223.27,
+Network activity,ip-dst,212.115.54.54,
+Network activity,ip-dst,37.61.229.104,
+Network activity,ip-dst,45.116.13.153,
+Network activity,ip-dst,45.128.221.61,
+Network activity,ip-dst,45.128.221.66,
+Network activity,ip-dst,45.136.187.98,
+Network activity,ip-dst,45.14.66.230,
+Network activity,ip-dst,45.154.14.132,
+Network activity,ip-dst,45.154.14.164,
+Network activity,ip-dst,45.154.14.188,
+Network activity,ip-dst,45.154.14.254,
+Network activity,ip-dst,45.251.241.74,
+Network activity,ip-dst,45.251.241.82,
+Network activity,ip-dst,45.76.113.163,"Warning: Potential false positives:
+Specialized list of IPv4 addresses belonging to common VPN providers and datacenters."
+Network activity,ip-dst,47.254.192.79,
+Network activity,ip-dst,92.223.30.232,
+Network activity,ip-dst,92.223.30.52,
+Network activity,ip-dst,92.223.90.174,
+Network activity,ip-dst,92.223.93.148,
+Network activity,ip-dst,92.223.93.222,
+Network activity,ip-dst,92.38.139.170,
+Network activity,ip-dst,92.38.149.101,
+Network activity,ip-dst,92.38.149.241,
+Network activity,ip-dst,92.38.171.127,
+Network activity,ip-dst,92.38.176.47,
+Network activity,ip-dst,107.150.127.124,
+Network activity,ip-dst,118.193.56.131,
+Network activity,ip-dst,176.113.71.168,
+Network activity,ip-dst,185.239.227.12,
+Network activity,ip-dst,194.29.100.173,
+Network activity,ip-dst,2.58.242.236,
+Network activity,ip-dst,45.128.221.182,
+Network activity,ip-dst,45.154.14.191,
+Network activity,ip-dst,47.254.250.117,
+Network activity,ip-dst,79.133.124.88,
+Network activity,ip-dst,103.137.185.249,
+Network activity,ip-dst,103.61.139.74,
+Network activity,ip-dst,107.150.112.211,
+Network activity,ip-dst,107.150.127.140,
+Network activity,ip-dst,146.185.218.65,
+Network activity,ip-dst,152.32.221.242,
+Network activity,ip-dst,165.154.70.62,
+Network activity,ip-dst,176.113.68.12,
+Network activity,ip-dst,185.101.139.176,
+Network activity,ip-dst,188.241.250.152,
+Network activity,ip-dst,188.241.250.153,
+Network activity,ip-dst,193.187.117.144,
+Network activity,ip-dst,196.46.190.27,
+Network activity,ip-dst,2.58.242.229,
+Network activity,ip-dst,2.58.242.232,
+Network activity,ip-dst,37.61.229.106,
+Network activity,ip-dst,45.128.221.172,
+Network activity,ip-dst,45.128.221.186,
+Network activity,ip-dst,45.128.221.229,
+Network activity,ip-dst,45.134.169.147,
+Network activity,ip-dst,103.170.132.199,
+Network activity,ip-dst,107.150.110.233,
+Network activity,ip-dst,152.32.255.145,
+Network activity,ip-dst,167.88.182.107,
+Network activity,ip-dst,185.239.226.203,
+Network activity,ip-dst,185.239.227.34,
+Network activity,ip-dst,45.128.221.169,
+Network activity,ip-dst,45.136.187.41,
+Network activity,ip-dst,137.220.55.38,
+Network activity,ip-dst,45.133.238.234,
+Network activity,ip-dst,103.192.226.43,
+Network activity,ip-dst,92.38.149.88,
+Network activity,ip-dst,5.188.33.237,
+Network activity,ip-dst,146.185.218.176,
+Network activity,ip-dst,43.254.218.104,
+Network activity,ip-dst,43.254.218.57,
+Network activity,ip-dst,43.254.218.98,
+Network activity,ip-dst,92.223.59.84,
+Network activity,ip-dst,43.254.218.43,
+Network activity,ip-dst,81.28.13.48,
+Network activity,ip-dst,89.43.107.191,
+Network activity,ip-dst,103.123.134.145,
+Network activity,ip-dst,103.123.134.161,
+Network activity,ip-dst,103.123.134.165,
+Network activity,ip-dst,103.85.24.81,
+Network activity,ip-dst,212.115.54.241,
+Network activity,ip-dst,43.254.218.114,
+Network activity,ip-dst,89.43.107.190,
+Network activity,ip-dst,103.123.134.139,
+Network activity,ip-dst,103.123.134.240,
+Network activity,ip-dst,103.85.24.121,
+Network activity,ip-dst,103.169.91.93,
+Network activity,ip-dst,103.169.91.94,
+Network activity,ip-dst,45.121.50.230,
+External analysis,url,https://unit42.paloaltonetworks.com/pingpull-gallium/,
