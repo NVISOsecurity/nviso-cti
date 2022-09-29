@@ -1,0 +1,54 @@
+category,type,value,comment
+Payload delivery,sha256,3c908b576e0ddadb5c94122e8f11b6701201518fa99e6cc33f69f17168da6d88,"Windows, Chaos malware upx packed"
+Payload delivery,sha256,2b935b3c308727d46ddd00ea776caeb1137a2cc3b43b055667dfdea42f98170a,"Windows, Chaos malware unpacked"
+Payload delivery,sha256,ebe0f9855eb8f6bd980ed60c26e3a877dc1ace5d664e248bb0558996fe0bd06f,Linux x86 Chaos malware
+Payload delivery,sha256,fecfa6e2e6d4224082e09da7b42878f9e6ab9966a6f7a4cd120603f0bd59e72a,Linux ARM Chaos malware
+Payload delivery,sha256,e0e3d23222d71bbebae6afd37dcc436f9f5c8e56dd6ece8c8d63c162826dd99c,Linux MIPS Chaos malware
+Payload delivery,sha256,db412892acc683df340211b28ca3545d550e0a1de4bf0a2565b2b83bb31e0357,Linux PPC Chaos malware
+Payload delivery,sha256,d315b83e772dfddbd2783f016c38f021225745eb43c06bbdfd92364f68fa4c56,Kaija malware
+Network activity,domain,quanquandd.top,Embedded C2 for Chaos malware
+Network activity,domain,linuxddos.net,Embedded C2 for Chaos malware
+Network activity,hostname,ai.nqb001.com,Embedded C2 for Chaos malware
+Network activity,domain,tomca1.com,Embedded C2 for Chaos malware
+Network activity,hostname,are.nishabig.pro,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,198.98.55.123|8080,Embedded C2 for Chaos malware
+Network activity,hostname,js.wanpay1.cn,Embedded C2 for Chaos malware
+Network activity,hostname,a.nqb001.com,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,43.155.37.192|9949,Embedded C2 for Chaos malware
+Network activity,domain,kivspace.xyz,Embedded C2 for Chaos malware
+Network activity,hostname,xiaomai233.f3322.net,Embedded C2 for Chaos malware
+Network activity,hostname,botnet.ddoswow.site,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,23.225.194.65|8080,Embedded C2 for Chaos malware
+Network activity,hostname,tf.xiaozhuddos.co,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,154.209.91.133|1997,Embedded C2 for Chaos malware
+Network activity,domain,skyeda.vip,Embedded C2 for Chaos malware
+Network activity,domain,bitantcoins.pro,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,112.132.212.55|8080,Embedded C2 for Chaos malware
+Network activity,hostname,bb.hash3688.com,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,20.90.110.121|8080,Embedded C2 for Chaos malware
+Network activity,ip-dst|port,115.126.74.200|8888,Embedded C2 for Chaos malware
+Network activity,hostname,x.xlg360.xyz,Embedded C2 for Chaos malware
+Network activity,hostname,abc.cfed.cc,Embedded C2 for Chaos malware
+Network activity,hostname,ars1.wemix.cc,Embedded C2 for Chaos malware
+Network activity,ip-dst,154.211.21.221,Staging C2 for Chaos malware
+Network activity,ip-dst,154.19.202.14,Staging C2 for Chaos malware
+Network activity,ip-dst,103.214.140.15,Staging C2 for Chaos malware
+Network activity,ip-dst,47.242.15.186,Staging C2 for Chaos malware
+Network activity,ip-dst,169.129.117.68,Staging C2 for Chaos malware
+Network activity,ip-dst,23.225.194.65,Staging C2 for Chaos malware
+Network activity,ip-dst,216.250.106.198,Staging C2 for Chaos malware
+Network activity,ip-dst,205.185.125.40,Staging C2 for Chaos malware
+Network activity,ip-dst,172.93.101.107,Staging C2 for Chaos malware
+Network activity,ip-dst,103.254.72.193,Staging C2 for Chaos malware
+Network activity,ip-dst,156.254.126.18,Staging C2 for Chaos malware
+Network activity,ip-dst,43.142.157.239,Staging C2 for Chaos malware
+Network activity,ip-dst,23.224.132.58,Staging C2 for Chaos malware
+Network activity,ip-dst,137.175.17.80,Staging C2 for Chaos malware
+Network activity,ip-dst,180.76.101.231,Staging C2 for Chaos malware
+Network activity,ip-dst,47.99.44.19,Staging C2 for Chaos malware
+Network activity,ip-dst,104.244.78.243,Staging C2 for Chaos malware
+Network activity,ip-dst,194.36.170.149,
+Network activity,ip-dst,23.226.76.122,
+Network activity,ip-dst,112.132.215.95,
+Network activity,ip-dst,45.125.44.251,
+Network activity,ip-dst,45.125.44.237,

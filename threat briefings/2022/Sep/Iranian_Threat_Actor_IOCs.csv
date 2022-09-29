@@ -1,0 +1,53 @@
+category,type,value,comment,object_relation,object_uuid,object_name
+Payload delivery,filename,mimikatz.exe,Tools used for lateral movement and execution,,,
+Artifacts dropped,sha256,e67c7dbd51ba94ac4549cc9bcaabb97276e55aa20be9fae909f947b5b7691e6b,Ldd.2.exe,,,
+Artifacts dropped,sha256,ac4809764857a44b269b549f82d8d04c1294c420baa6b53e2f6b6cb4a3f7e9bd,"SMB remote file copy tool Mellona.exe, originally named MassExecuter.exe",,,
+Artifacts dropped,sha256,d1bec48c2a6a014d3708d210d48b68c545ac086f103016a20e862ac4a189279e,Sl.exe,,,
+Artifacts dropped,sha256,dfd631e4d1f94f7573861cf438f5a33fe8633238d8d51759d88658e4fbac160a,Rognar.exe,,,
+Artifacts dropped,sha256,734b4c06a283982c6c3d2952df53e0b21e55f3805e55a6ace8379119d7ec1b1d,Ipgeter.exe,,,
+Artifacts dropped,sha256,f8db380cc495e98c38a9fb505acba6574cbb18cfe5d7a2bb6807ad1633bf2df8,evaluatesiteupgrade.aspx,,,
+Artifacts dropped,sha256,0b647d07bba697644e8a00cdcc8668bb83da656f3dee10c852eb11effe414a7e,Pickers.aspx,,,
+Artifacts dropped,sha256,7ad64b64e0a4e510be42ba631868bbda8779139dc0daad9395ab048306cc83c5,ClientBin.aspx,,,
+Network activity,ip-src,185.82.72.111,IP that accessed webshell,,,
+Network activity,ip-src,216.24.219.65,IP that accessed webshell,,,
+Network activity,ip-src,216.24.219.64,IP that accessed webshell,,,
+Network activity,ip-src,46.30.189.66,IP that accessed webshell,,,
+Payload delivery,sha1,5d117d8ef075f3f8ed1d4edcc0771a2a0886a376,ransomware binary – Ransom:Win32/Eagle!MSR,sha1,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,md5,bbe983dba3bf319621b447618548b740,ransomware binary – Ransom:Win32/Eagle!MSR,md5,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,sha256,f116acc6508843f59e59fb5a8d643370dce82f492a217764521f46a856cc4cb5,ransomware binary – Ransom:Win32/Eagle!MSR,sha256,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,imphash,5b2ce9270beea5915ec9adbcd0dbb070,,imphash,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,tlsh,t155134b17f20654b2ed6e0d70219bfebe4720b912943f4e55d7e0c8686a376623d1cb1a,,tlsh,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Network activity,x509-fingerprint-sha1,55d90ec44b97b64b6dd4e3aee4d1585d6b14b26f,Revoked,certificate,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,ssdeep,768:+OFu8Q3w6QzfR5Jni6SQD7qSFDs6P93/q0XIc/UB5EPABWX:RFu8QAFzffJui79f13/AnB5EPAkX,,ssdeep,5ca46915-014f-4d62-a6c6-9f304c0a052e,file
+Payload delivery,sha1,f22a7ec80fbfdc4d8ed796119c76bfac01e0a908,,sha1,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,md5,7b71764236f244ae971742ee1bc6b098,,md5,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,sha256,e1204ebbd8f15dbf5f2e41dddc5337e3182fc4daf75b05acc948b8b965480ca0,,sha256,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,filename,cl.exe,,filename,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,imphash,58d51c1152817ca3dec77f2eee52cbef,,imphash,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,ssdeep,3072:vv2ADi7yOcE/YMBSZ0fZX4kpK1OhJrDwM:vv2jeQ/flfZbKM,,ssdeep,750376b9-574b-4165-b5d1-296ebe03ba8d,file
+Payload delivery,sha1,14b8c155e01f25e749a9726958606b242c8624b9,,sha1,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,md5,1635e1acd72809479e21b0ac5497a79b,,md5,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,sha256,bad65769c0b416bb16a82b5be11f1d4788239f8b2ba77ae57948b53a69e230a6,,sha256,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,filename,Win.bat,,filename,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,tlsh,t14ea022020cef33a0f03028c0230f88083308e30332cc8b0300cc0a02b28ba0cc028082,,tlsh,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,ssdeep,3:LjTFKCkRErG+fyM1KDCFUF82G:r0aH1+DF82G,,ssdeep,7383a6b5-446f-4276-b61d-d1b62de52fef,file
+Payload delivery,sha1,1191f2bbcfe5e58cd0f19122984270e82597737f,,sha1,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,md5,245816b7e791e672858d6eb4cced782f,,md5,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,sha256,1c926d4bf1a99b59391649f56abf9cd59548f5fcf6a0d923188e7e3cab1c95d0,,sha256,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,filename,Lsdsk.exe,,filename,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,imphash,59630ee335e31d3e15f03e4d3df089bf,,imphash,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,tlsh,t1827301dd460a5593c2c59f34a5ee3b332814e4486be8cb1f48b854cb7cd1395a32dbad,,tlsh,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,ssdeep,1536:4hdHfVJ/cOiDHOKjXOWVhzl9K8YmMub70hBX8IBQckyOIxS:udHfHcOsfRYlhBX8kQ/yOIM,,ssdeep,fd44d741-64a8-4366-ae4b-967369317c0c,file
+Payload delivery,sha1,39f7e3f5435cdfacaa89aa5ef2d4e092bde4494e,,sha1,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,md5,1fd930064b81e7c96eedb985ca2a0d97,,md5,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,sha256,fb49dce92f9a028a1da3045f705a574f3c1997fe947e2c69699b17f07e5a552b,,sha256,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,imphash,f34d5f2d4577ed6d9ceec516c1f5a744,,imphash,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,tlsh,t1a3e4224667ec8310eafe2e75183062061fb2f1476c70d76d9d9568ca1e32ba2d5703af,,tlsh,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,ssdeep,12288:l5Ly+VAcemi3j7wj0I3+l0qjwW7ZKjZtIgTcb2NeLaP/UEDlF56Yegw:bm3XzEA6qjwWuTcwVP/LDlF56Yegw,,ssdeep,ebf297b6-66f6-4f7b-8a01-ccdef5da2728,file
+Payload delivery,sha1,e866cc6b1507f21f688ecc2ef15a64e413743da7,,sha1,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,md5,60afb1e62ac61424a542b8c7b4d2cf01,,md5,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,sha256,45bf0057b3121c6e444b316afafdd802d16083282d1cbfde3cdbf2a9d0915ace,,sha256,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,filename,disable-defender.exe,,filename,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,imphash,74a6ef9e7b49c71341e439022f643c8e,,imphash,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,tlsh,t185547d5ab3a410f9e977c27cc8524601ea72bc174771d6af33a84a663f232d09d3eb51,,tlsh,b799dad6-223b-4327-adda-1334256bf5f5,file
+Payload delivery,ssdeep,6144:t2WhikbJZc+Wrbe/t1zT/p03BuGJ1oh7ISCLun:t2WpZnW+/tVoJ1ouQ,,ssdeep,b799dad6-223b-4327-adda-1334256bf5f5,file
