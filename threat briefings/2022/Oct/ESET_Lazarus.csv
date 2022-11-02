@@ -1,0 +1,14 @@
+category,type,value,comment
+Payload delivery,sha1,296d882cb926070f6e43c99b9e1683497b6f17c4,A usermode module that operates with the kernel memory.
+Payload delivery,sha1,001386cbbc258c3fcc64145c74212a024eaa6657,A dropper of the HTTP(S) downloader.
+Payload delivery,sha1,569234edfb631b4f99656529ec21067a4c933969,A dropper of BLINDINGCAN side-loaded by a legitimate colorcpl.exe.
+Payload delivery,sha1,735b7e9dfa7af03b751075fd6d3de45fbf0330a2,A 64-bit variant of the BLINDINGCAN RAT.
+Payload delivery,sha1,4aa48160b0db2f10c7920349e3dcce01cce23fe3,An HTTP(S) downloader.
+Payload delivery,sha1,c71c19dbb5f40dbb9a721dc05d4f9860590a5762,A dropper of the HTTP(S) uploader.
+Payload delivery,sha1,97daab7b422210ab256824d9759c0dba319ca468,A dropper of an intermediate loader.
+Payload delivery,sha1,fd6d0080d27929c803a91f268b719f725396fe79,An HTTP(S) uploader.
+Payload delivery,sha1,83cf7d8ef1a241001c599b9bcc8940e089b613fb,An intermediate loader that loads an additional payload from the file system.
+Payload delivery,sha1,085f3a694a1eecde76a69335cd1ea7f345d61456,A dropper in the form of a trojanized lecui library.
+Payload delivery,sha1,55cab89cb8dabcaa944d0bca5cbbbeb86a11ea12,A dropper in the form of a trojanized lecui library.
+Payload delivery,sha1,806668ecc4bfb271e645acb42f22f750bff8ee96,A trojanized FingerText plug-in for Notepad++.
+Payload delivery,sha1,bd5dcb90c5b5fa7f5350ea2b9ace56e62385ca65,A trojanized version of LibreSSL's sslSniffer.

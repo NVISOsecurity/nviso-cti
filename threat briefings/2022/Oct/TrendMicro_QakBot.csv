@@ -1,0 +1,109 @@
+category,type,value,comment
+Payload delivery,sha256,01fd6e0c8393a5f4112ea19a26bedffb31d6a01f4d3fe5721ca20f479766208f,QAKBOT Loader
+Payload delivery,sha256,74da9610cb92a5a6fc15c856d3af73ff2b069f23d5a9712e48b6fd40b52fc744,Cobalt Strike DLL
+Payload delivery,sha256,726bce40d17b3f9b245af6b78251469b89cde4d3428187f5c11ed4c3f5b58ed4,Cobalt Strike DLL
+Payload delivery,sha256,a7d6cd8209eea40a9bcf32e923b7723d8724895f5d1084605a64651c3a811b03,Cobalt Strike DLL
+Payload delivery,sha256,94392d757ba3526c3dcd5c3ddcb3f005c6330ef075dc246d08a8b79e017c0c01,Cobalt Strike DLL
+Payload delivery,sha256,9efbc691d53ea9aa1eef245da23e197310bf266b0223ae1af8035bf854782edd,Cobalt Strike DLL
+Payload delivery,sha256,c545541fecd97b2c46ab0c6db25a2f87b48ffadbd2c75ad65c7ce2781a8de491,Cobalt Strike DLL
+Payload delivery,sha256,a0adcd303fdff7747ab93df07b0722eab9890ba9deab7d322f077d6774ef6bc0,Cobalt Strike DLL
+Payload delivery,sha256,66ff672282b02f4796e006f2cfef125cccfd542b65eb3fbc728badf09cb94202,Cobalt Strike DLL
+Payload delivery,sha256,6f9e9137a014b29f47722dbbb7a290eff11a9da3226af01bb2ecb78116dcb607,Cobalt Strike DLL
+Payload delivery,sha256,62cb24967c6ce18d35d2a23ebed4217889d796cf7799d9075c1aa7752b8d3967,Brute Ratel DLL
+Payload delivery,sha256,1751c378e2b14bd6238c3189e13501d191c117fdfe65e4e0ea1cb5829cce2bb9,Cobalt Strike DLL
+Payload delivery,sha256,64a95de2783a97160bac6914ee07a42cdd154a0e33abc3b1b62c7bafdce24c0c,BRUTEL RATEL DLL
+Payload delivery,sha256,54e844b5ae4a056ca8df4ca7299249c4910374d64261c83ac55e5fdf1b59f01d,BRUTEL RATEL DLL
+Payload delivery,sha256,01af5478e290bfcd23eeb39ff3af8802ab11a410038cae957ccb56de45d90ac0,Brute Ratel EXE
+Payload delivery,sha256,f2fe89d8de9dc29ddca56918beb652df1b3d44218bf5e084c4d0de7325ec54f5,Brute Ratel EXE
+Payload delivery,sha256,31103788fae9b988d9d4362b848249b49ea60e15fc5982f26b13447064a13325,Black Basta
+Payload delivery,sha256,ce01002614eb7029131a73769db721ac68ef47989d7a8022980d3ae22c82b6f7,Black Basta
+Payload delivery,sha256,48976d7bf38cca4e952507e9ab27e3874ca01092eed53d0fde89c5966e9533bb,Black Basta
+Payload delivery,sha256,ab88d558ff0ae35860f6ba1ceab6ec3302ace9dc7e957940c053f85b4dc17e78,Cobalt Strike DLL
+Payload delivery,sha256,16738ffeb00a849af4f24b6faee00d9d8e2b0247621d01718895dac5cc99fd8a,QAKBOT HTML Page
+Payload delivery,sha256,e69c96fc8c81c12b9101fcb67e6811b3c46b9c79de7087ac34aa1f95be9c7c1a,QAKBOT CMD File
+Payload delivery,sha256,d44b05b248f95986211ab3dc2765f1d76683594a174984c8b801bd7eade8aa47,QAKBOT Script File
+Payload delivery,sha256,f56d25cf9f20f2040b2ec14f769f36aa14819f56f6b254c0831c9b2a024b8c8d,QAKBOT Loader
+Payload delivery,sha256,582a5e2b2652284ebb486bf6a367aaa6bb817c856f08ef54db64c6994c5b91bd,QAKBOT ISO File
+Payload delivery,sha256,f32b4407f51f1407bf4261c49ad940712b0e3777a5f7365ba6b485a163361d3b,QAKBOT ISO File
+Payload delivery,sha256,a0a0f07ffbede4772ef04ce7c7e98b77ad0d5e2b2f391d8d26dcc96c289469c4,QAKBOT LNK File
+Payload delivery,sha256,e9e214f7338c6baefd2a76ee66f5fadb0b504718ea3cebc65da7a43a5ff819a4,QAKBOT LNK File
+Payload delivery,sha256,2d1e93d28bf349a412bda7668536c4dc197cb12e020a5355f2d305ecac3ba458,QAKBOT Loader
+Payload delivery,sha256,5510ff3cb4b8b344b0ee70b80266d3b497afd9ec423183917983e8bb36ff7c25,QAKBOT VBS File
+Payload delivery,sha256,06c4c4d100e9a7c79e2ee8c4ffa1f7ad165a014f5f14f90ddfc730527c564e35,QAKBOT JScript  File
+Payload delivery,ip-dst|port,189.19.189.222|32101,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,196.64.230.149|8443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,180.180.132.100|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,99.232.140.205|2222,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,187.205.222.100|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,139.228.33.176|2222,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,88.245.168.200|2222,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,197.204.227.155|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,111.125.157.230|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,217.165.97.141|993,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,196.64.237.130|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,86.176.180.223|993,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,url,https://davalibapa.com,Cobalt Strike C2
+Payload delivery,domain,symantecuptimehost.com,Brute Ratel C2
+Payload delivery,ip-dst|port,70.51.132.197|2222,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,39.121.226.109|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,191.97.234.238|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,119.82.111.158|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,86.132.13.105|2078,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,173.218.180.91|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,89.211.217.38|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,41.111.72.234|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,115.247.12.66|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,66.181.164.43|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,197.94.84.128|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,88.232.207.24|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,url,https://himiketiv.com,Cobalt Strike C2
+Payload delivery,ip-dst|port,110.4.255.247|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,url,https://fewifasoc.com,Cobalt Strike C2
+Payload delivery,ip-dst|port,144.202.15.58|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,68.224.229.42|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,45.77.159.252|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,177.255.14.99|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,149.28.63.197|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,123.23.64.230|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,70.49.33.200|2222,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,144.202.15.58|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,149.28.63.197|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,45.77.159.252|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,149.28.38.16|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,149.28.38.16|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,96.234.66.76|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,url,https://hadujaza.com,Cobalt Strike C2
+Payload delivery,ip-dst|port,186.64.67.34|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,45.63.10.144|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,72.88.245.71|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,45.63.10.144|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,134.35.10.30|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,190.44.40.48|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst,197.204.126.136,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,105.108.255.165,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,149.126.159.254,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst|port,41.96.130.46|80,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,41.98.11.74|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,100.1.5.250|995,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,193.3.19.37|443,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst|port,88.237.6.72|53,"QAKBOT ""BB"" C2 Servers"
+Payload delivery,ip-dst,78.162.213.155,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,154.183.135.35,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,160.179.220.87,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,23.225.104.250,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,189.79.27.174,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,186.125.93.28,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,41.108.175.56,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,domain,sentisupport.com,Brute Ratel C2
+Payload delivery,domain,teenieshopus.com,Brute Ratel C2
+Payload delivery,ip-dst,94.52.127.44,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,41.105.54.8,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,41.96.18.5,"QAKBOT ""Obama"" C2 Server"
+Payload delivery,ip-dst,45.153.242.251,Cobalt Strike C2
+Payload delivery,domain,halasaloon.com,QAKBOT Phishing Domain
+Payload delivery,ip-dst,45.153.242.250,Cobalt Strike C2
+Payload delivery,ip-dst,45.153.241.88,Cobalt Strike C2
+Payload delivery,ip-dst,45.153.241.64,Cobalt Strike C2
+Payload delivery,domain,near-org.top,Brute Ratel C2
+Payload delivery,domain,edmor-p.com,QAKBOT Phishing Domain
+Payload delivery,domain,growin.ro,QAKBOT Phishing Domain
