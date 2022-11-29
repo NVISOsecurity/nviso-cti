@@ -1,0 +1,6 @@
+category,type,value,comment,to_ids
+Payload delivery,sha256,05a3a84096bcdc2a5cf87d07ede96aff7fd5037679f9585fee9a227c0d9cbf51,,1
+Payload delivery,sha256,99580385a4fef0ebba70134a3d0cb143ebe0946df148d84f9e43334ec506e301,,1
+Payload delivery,domain,bayernbadabum.com,,1
+Payload delivery,url,bayernbadabum.com/botpack.dat,,1
+Payload delivery,filename,botpack.dat,,1
