@@ -1,0 +1,14 @@
+category,type,value,comment,to_ids
+External analysis,link,https://blog.cyble.com/2023/02/06/massive-ransomware-attack-targets-vmware-esxi-servers/,,0
+External analysis,link,https://www.trellix.com/en-us/about/newsroom/stories/research/global-esxiargs-ransomware-attack-on-the-back-of-a-two-year-old-vulnerability.html,,0
+External analysis,link,https://www.bleepingcomputer.com/news/security/massive-esxiargs-ransomware-attack-targets-vmware-esxi-servers-worldwide/,,0
+Payload delivery,md5,948e6d82d625ec2ebec2b2e5ee21ada8,encrypt.sh,1
+Payload delivery,md5,c358fe0e8837cc577315fc38892b937d,python.py,1
+Payload delivery,md5,d0d36f169f1458806053aae482af5010,encrypt.sh,1
+Payload delivery,md5,df1921871117dc84e9d1faf361656a83,encrypt.sh,1
+Payload delivery,md5,87b010bc90cd7dd776fb42ea5b3f85d3,encrypt,1
+Payload delivery,md5,561f5507e28a8822e463b0bd274b71d2,CVE-2021-21974.py,1
+Payload delivery,md5,03b318795ef7926d25f9ec3cb6b00cd5,hostd-probe.sh,1
+Payload delivery,md5,566bc3ae2de680a524e2ec3fc2247826,local.sh,1
+Payload delivery,sha256,10c3b6b03a9bf105d264a8e7f30dcab0a6c59a414529b0af0a6bd9f1d2984459,Encrypt.sh,1
+Payload delivery,sha256,11b1b2375d9d840912cfd1f0d0d04d93ed0cddb0ae4ddb550a5b62cd044d6b66,Encrypt,1

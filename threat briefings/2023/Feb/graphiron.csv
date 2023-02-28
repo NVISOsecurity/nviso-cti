@@ -1,0 +1,11 @@
+category,type,value,comment,to_ids
+External analysis,link,https://thehackernews.com/2023/02/russian-hackers-using-graphiron-malware.html,,0
+External analysis,link,https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/nodaria-ukraine-infostealer,,0
+External analysis,link,https://www.bleepingcomputer.com/news/security/russian-hackers-using-new-graphiron-information-stealer-in-ukraine/,,0
+Payload delivery,sha256,0d0a675516f1ff9247f74df31e90f06b0fea160953e5e3bada5d1c8304cfbe63,Downloader.Graphiron,1
+Payload delivery,sha256,878450da2e44f5c89ce1af91479b9a9491fe45211fee312354dfe69e967622db,Downloader.Graphiron,1
+Payload delivery,sha256,80e6a9079deffd6837363709f230f6ab3b2fe80af5ad30e46f6470a0c73e75a7,Infostealer.Graphiron,1
+Payload delivery,sha256,eee1d29a425231d981efbc25b6d87fdb9ca9c0e4e3eb393472d5967f7649a1e6,Infostealer.Graphiron,1
+Payload delivery,sha256,f0fd55b743a2e8f995820884e6e684f1150e7a6369712afe9edb57ffd09ad4c1,Infostealer.Graphiron,1
+Payload delivery,sha256,f86db0c0880bb81dbfe5ea0b087c2d17fab7b8eefb6841d15916ae9442dd0cce,Infostealer.Graphiron,1
+Network activity,ip-dst,208.67.104.95,C2,1
