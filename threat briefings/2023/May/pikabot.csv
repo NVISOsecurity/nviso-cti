@@ -1,0 +1,23 @@
+﻿category,type,value,comment,to_ids
+External analysis,link,https://malpedia.caad.fkie.fraunhofer.de/details/win.pikabot,,0
+External analysis,link,https://www.malware-traffic-analysis.net/2023/02/07/index.html,,0
+Payload delivery,sha256,3c12e78abe3efd063ff99c06727ec4f1b9c59d900f78b7362d7677edaf7d0581,JavaScript file for Pikabot,1
+Network activity,url,https://webmasterdev.com/mui/?1,JavaScript file for Pikabot,1
+Payload delivery,sha256,9b8ffdc8ba2b2caa485cca56a82b2dcbd251f65fb30bc88f0ac3da6704e4d3c6,Example of 32-bit DLL for Pikabot,1
+Network activity,url,http://162.252.172.54/9GQ5A8/6ctf5JL,Hosts 9b8ffdc8ba2b2caa485cca56a82b2dcbd251f65fb30bc88f0ac3da6704e4d3c6,1
+Payload delivery,filename,%ALLUSERSPROFILE%\reknowMechant.montageFirring,Related to 9b8ffdc8ba2b2caa485cca56a82b2dcbd251f65fb30bc88f0ac3da6704e4d3c6,1
+Payload delivery,filename,unbevelledHamuli.dll,Related to 9b8ffdc8ba2b2caa485cca56a82b2dcbd251f65fb30bc88f0ac3da6704e4d3c6,1
+Network activity,ip-dst,45.85.235.39,PikaBot C2,1
+Network activity,ip-dst,94.199.173.6,PikaBot C2,1
+Network activity,ip-dst,129.153.135.83,PikaBot C2,1
+Network activity,ip-dst,129.153.22.231,PikaBot C2,1
+Network activity,ip-dst,129.213.54.49,PikaBot C2,1
+Network activity,ip-dst,129.80.164.200,PikaBot C2,1
+Network activity,ip-dst,132.148.79.222,PikaBot C2,1
+Network activity,ip-dst,144.172.126.136,PikaBot C2,1
+Network activity,ip-dst,185.87.148.132,PikaBot C2,1
+Network activity,ip-dst,193.122.200.171,PikaBot C2,1
+Network activity,domain,steasteel.net,Cobalt Strike activity,1
+Network activity,domain,gitinab.xyz,Cobalt Strike activity,1
+Network activity,ip-dst,127.42.0.6,"DNS query for gitinab[.]xyz - resolved to 127.42.0[.]6, but no follow-up traffic to that IP",0
+Network activity,ip-dst,23.163.0.37,port 8080 HTTPS,1
