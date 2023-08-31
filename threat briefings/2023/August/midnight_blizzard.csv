@@ -1,0 +1,12 @@
+category;type;value;comment
+Network activity;domain;mlcrosoftaccounts.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;msftonlineservices.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;msonlineteam.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;msftservice.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;noreplyteam.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;accounteam.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;teamsprotection.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;identityverification.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;msftprotection.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;accountsverification.onmicrosoft.com;Domains abused in phishing attacks through Teams
+Network activity;domain;azuresecuritycenter.onmicrosoft.com;Domains abused in phishing attacks through Teams
