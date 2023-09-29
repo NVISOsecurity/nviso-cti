@@ -1,0 +1,8 @@
+# Source https://checkmarx.com/blog/surprise-when-dependabot-contributes-malicious-code/
+
+# Domains
+wagateway.pro
+
+# URLs
+https://send.wagateway.pro/webhook
+https://send.wagateway.pro/client.js
